@@ -31,7 +31,7 @@ Mopidy (Audio Server) on the Raspberry Pi 3
 - Obviously you might consider automating the startup of Mopidy. Like everything on unix/linux there's tons of ways of doing this. You could consider using daemon (daemontools) or simply /etc/rc.d/rc.local. Key in the startup command into rc.local and reboot the machine to find mopidy running in the background.
 - Enjoy listening to your music!!!
 
-RPi Web Cam 
+RPi Web Cam - RaspberryPi Web Cam
 - RPi Cam is a project that allows you to use your RaspberryPi for purposes of streaming video. This assumes that you have your onboard camera installed and cabling sorted. You can find details of the project here - http://elinux.org/RPi-Cam-Web-Interface
 - Please make sure you have run "raspi-config" and enabled the camera option there. 
 - The steps for installation include - 
