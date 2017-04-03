@@ -31,17 +31,19 @@ Mopidy (Audio Server) on the Raspberry Pi 3
 - Obviously you might consider automating the startup of Mopidy. Like everything on unix/linux there's tons of ways of doing this. You could consider using daemon (daemontools) or simply /etc/rc.d/rc.local. Key in the startup command into rc.local and reboot the machine to find mopidy running in the background.
 - Enjoy listening to your music!!!
 
-Alexa on the Raspberry Pi 3
-- Alexa as you know is Amazon's Voice service and now configurable on most maker platforms including the Raspberry Pi 3. This project is a fork of Sam Machin's code base including use of a tactile button and a single RGB LED.
-- Components required include
-  - 1 x Raspberry Pi 3 (I have used a 3, Model B. You can use whatever you have at your disposal.)
-  - 1 x RGB LED 
-    - https://tkkrlab.nl/wiki/Arduino_KY-016_3-color_LED_module
-    - https://littlebirdelectronics.com.au/products/arduino-compatible-rgb-led-module
-    - http://www.dx.com/p/diy-arduino-3-color-rgb-smd-led-module-black-135046
-  - 1 x Breadboard
-  - 1 x Extension cable (Suggested) to extend the GPIO ports of the Raspberry Pi and bring them closed to the breadboard
-  - 10 x Jumper cables - Female (connect to Rasberry Pi GPIO) to Male (Connect to the Breadboard)
-  - 1 x Tactile Push button
-  - 1 x Raspberry Pi Cobbler board (Recommended, to breakout the GPIO's) and make working easier
-- Code base can be obtained from the following github repository - https://github.com/tangowhisky37/AlexaPi
+RPi Web Cam 
+- RPi Cam is a project that allows you to use your RaspberryPi for purposes of streaming video. This assumes that you have your onboard camera installed and cabling sorted. You can find details of the project here - http://elinux.org/RPi-Cam-Web-Interface
+- Please make sure you have run "raspi-config" and enabled the camera option there. 
+- The steps for installation include - 
+  - Let's make sure our distribution has all the latest packages. We'll upgrade using the following commands - 
+  - sudo apt-get update  <-- This updates the local repository
+  - sudo apt-get upgrade <-- This upgrade all the relevant packages
+- Once the above have completed let's clone the repository and install RasPi cam
+  - git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
+  - cd RPi_Cam_Web_Interface
+  - chmod u+x *.sh
+  - ./install.sh
+- The installer will ask you a bunch of questions. Most importantly the location for the Raspicam web folder. 
+- Once the installation has completed head off to the Raspicam web foder through your web browser and you should be able to see your webcam in action.
+
+Thanks!!!
