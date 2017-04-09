@@ -1,3 +1,5 @@
+The installation guides below have mostly been written to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi. However i believe these would also be useful to some of you out there who might stumble across simliar issues with your own Raspberry Pi's. 
+
 Mopidy (Audio Server) on the Raspberry Pi 3
 
 - Mopidy is an extensible music server that plays music from local disk, Spotify, SoundCloud, Google Play Music, and more. You edit the playlist from any phone, tablet, or computer using a range of MPD and web clients. Head off to https://www.mopidy.com to learn more about the Mopidy music server.
@@ -31,7 +33,7 @@ Mopidy (Audio Server) on the Raspberry Pi 3
 - Obviously you might consider automating the startup of Mopidy. Like everything on unix/linux there's tons of ways of doing this. You could consider using daemon (daemontools) or simply /etc/rc.d/rc.local. Key in the startup command into rc.local and reboot the machine to find mopidy running in the background.
 - Enjoy listening to your music!!!
 
-RPi Web Cam - RaspberryPi Web Cam
+RPi Web Cam - RaspberryPi Web Cam (Raspberry Pi 3)
 - RPi Cam is a project that allows you to use your RaspberryPi for purposes of streaming video. This assumes that you have your onboard camera installed and cabling sorted. You can find details of the project here - http://elinux.org/RPi-Cam-Web-Interface
 - Please make sure you have run "raspi-config" and enabled the camera option there. 
 - The steps for installation include - 
@@ -45,5 +47,15 @@ RPi Web Cam - RaspberryPi Web Cam
   - ./install.sh
 - The installer will ask you a bunch of questions. Most importantly the location for the Raspicam web folder. 
 - Once the installation has completed head off to the Raspicam web foder through your web browser and you should be able to see your webcam in action.
-
+- The installer should have made relevant entries into /etc/rc.local which will ensure that everytime your RaspberryPi boots up the RPi Web Cam server starts up automatically. There are various other approaches to automating the startup of services like the RasPi Cam e.g. using daemontools, monit (monitoring daemon), custom startup scripts in /etc/rc.*d. 
+- See what works best for you.
 Thanks!!!
+
+Coming soon - 
+- Setting up a USB Web Camera on Raspberry Pi 3
+- Setting up your RaspberryPi 3 to able to VNC (remote connection) to the main display
+- Mounting an external Windows recoginzed USB Device (& File System) on the RaspberryPi 3
+- Changing the default sound output on the Raspberry Pi 3
+- Installing and testing a USB mike on the Raspberry Pi 3
+
+
