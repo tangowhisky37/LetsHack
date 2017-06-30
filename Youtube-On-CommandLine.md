@@ -1,4 +1,3 @@
-
 The installation guides below have mostly been written to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi. However i believe these would also be useful to some of you out there who might stumble across simliar issues with your own Raspberry Pi's. 
 
 Mopidy (Audio Server) on the Raspberry Pi 3
