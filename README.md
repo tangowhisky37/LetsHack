@@ -3,7 +3,7 @@
 The installation guides below have mostly been written up as notes to myself to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi including in some cases on-going systems administration of the Linux (Raspbian) operating system that runs on the Raspberry Pi. I believe some of this information might be useful would also be useful to some of you out there who might stumble across simliar issues with your own Raspberry Pi's. 
 
 * [Mopidy (Audio Server) on the Raspberry Pi 3](/Mopidy-Audio-Setup.md)
-* [RPi Web Cam - RaspberryPi Web Cam](Raspberry Pi 3](/Webcam-Setup.md)
+* [RPi Web Cam - RaspberryPi Web Cam](/Webcam-Setup.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
 * [Youtube on the Command Line](/Youtube-On-CommandLine.md)
