@@ -24,8 +24,9 @@ Now that we have installed Mopidy lets review some of the other non-documented d
 
 * Lets proceed now and manually install the following packages. These are part of the pre-requisites which i found missing and spent sometime/effort understanding what was required. 
 * The commands are - 
- >`sudo apt-get install python-gst-1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools` 
- >`sudo apt-get install gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0`
+ >`bash# sudo apt-get install python-gst-1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools` 
+
+ >`bash# sudo apt-get install gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0`
 
 With the above step we have completed installation of mopidy and its key dependencies. There are still many plugins avaialble for mopidy which we can't cover in this tutorial. To download and install the relevant plugins (to play different types of audio files, streams, etc.) we would recommend that you visit the mopidy page and look up the documentation. Lets now proceed with configuration of our local mopidy setup on the Raspberry Pi.
 
