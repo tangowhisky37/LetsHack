@@ -24,6 +24,7 @@ Now that we have installed Mopidy lets review some of the other non-documented d
 
 * Lets proceed now and manually install the following packages. These are part of the pre-requisites which i found missing and spent sometime/effort understanding what was required. 
 * The commands are - 
+
  >`bash# sudo apt-get install python-gst-1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools` 
 
  >`bash# sudo apt-get install gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0`

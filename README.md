@@ -6,6 +6,7 @@ The installation guides below have mostly been written up as notes to myself to 
 * [RPi Web Cam - RaspberryPi Web Cam](/Webcam-Setup.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
+* [Git Tutorial](/Git-Tutorial.md)
 * [Youtube on the Command Line](/Youtube-On-CommandLine.md)
 
 ### In The Works - 
