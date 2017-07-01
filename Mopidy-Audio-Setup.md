@@ -3,7 +3,9 @@
 
 Mopidy is an extensible music server that plays music from local disk, Spotify, SoundCloud, Google Play Music, and more. There are many different user interfaces (web client, etc.) wich you can download and use to view, edit the playlist from any handheld device i.e. phone, tablet including a computer. Mopidy also allows the use of range of MPD (Older Music Player Daemon) client for which applications are available at the Apple and Andriod stores. Head off to https://www.mopidy.com to learn more about the Mopidy music server and what it has to offer.
 
-There are many reasons i used Mopidy, the foremost being that it's Python based and has one of the most refreshing interfaces i could find. Secondly, Mopidy has a very vibrant community around it with some of the best support for plugins and interfaces that I could find. To top it all it would run on Raspbian on the Raspberry Pi which was important.
+There are many reasons i use Mopidy in comparison to the other music players available. The foremost being that it's Python based and has one of the most refreshing interfaces i could find. Secondly, Mopidy has a very vibrant community around it with some of the best support for plugins and interfaces that I could find. To top it all it would run on Raspbian on the Raspberry Pi which was important.
+
+### Installing Mopidy on Raspbian
 
 Let's step through the commands to download and install the base Mopidy player on your RaspberryPi.
 
@@ -16,6 +18,8 @@ Let's step through the commands to download and install the base Mopidy player o
   * Let's now change into the downloaded mopidy-alsamixer directory to build and install the application. 
   * To build and install mopidy-mixer issue the following commands, `bash# sudo python setup.py install`. This should build and install mopidy-alsamixer onto the Raspberry Pi.
 
+### Installing Dependencies 
+
 Now that we have installed Mopidy lets review some of the other non-documented dependencies that we might consider installing. If we had not installed Mopidy from source [Github](https://github.com) and rather installed Mopidy using the Raspbian packages `bash# sudo apt-get install mopidy` the system would have auto resolved the dependencies. However, we've chosen not to install the stock packages since they are really outdated. We prefer the latest stable codebase from Github which is the reason why we are taking the pain to go about installing mopidy and it's dependencies the hard way. 
 
 * Lets proceed now and manually install the following packages. These are part of the pre-requisites which i found missing and spent sometime/effort understanding what was required. The commands are - 
@@ -24,11 +28,16 @@ Now that we have installed Mopidy lets review some of the other non-documented d
 
 With the above step we have completed installation of mopidy and its key dependencies. There are still many plugins avaialble for mopidy which we can't cover in this tutorial. To download and install the relevant plugins (to play different types of audio files, streams, etc.) we would recommend that you visit the mopidy page and look up the documentation. Lets now proceed with configuration of our local mopidy setup on the Raspberry Pi.
 
-* You will now need to open up your Mopidy configuration file at /etc/mopidy/mopidy.conf and edit it to suit your requirements. For details on each of the configuration options please visit - [https://docs.mopidy.com/en/latest/config/](https://docs.mopidy.com/en/latest/config/). 
+### Modifying the Out Of The Box Mopidy Config File
+
+* You will now need to open up your Mopidy configuration file at /etc/mopidy/mopidy.conf and edit it to suit your requirements. At the end of the installation you should be left with a default out of the box configuration for Mopidy which will need tweaking.
+* For details on each of the configuration options please visit - [https://docs.mopidy.com/en/latest/config/](https://docs.mopidy.com/en/latest/config/). 
 * Please including configuration for the Mopidy AlsaMixer module into /etc/mopidy/mopidy.conf file. You can refer to a sample config for the mopidy-alsamixer at [https://github.com/mopidy/mopidy-alsamixer](https://github.com/mopidy/mopidy-alsamixer)
 * Now that we've got this far we'll need to add the local music repository to the configuration. Open up your mopidy configuration file and look for the `[local]` configuration section within it. The `[local]` configuration section is where you will add the location path to your local music store. This one needs to be configured with a simple local unix path based on the location of the files on your Raspberry Pi. 
 
 It's time to review the configuration and get mopidy up and running so that we can listen to some music. 
+
+### Starting Mopidy & Initilize Cache
 
 * Start up Mopidy using `sudo /path/to/mopidy --config /etc/mopidy/mopidy.conf`. It's likely that you will see errors when you first start mopidy. Work through the errors and resolve them one at a time. Work through the errors and make sure that you are able to get mopidy running without any errors on the Raspberry Pi.
 * A best case outcome could be that the only error is that the local plugin configuration has not found any media files. This is a best case outcome and it might or might not be applicable to you.
@@ -41,13 +50,17 @@ It's time to review the configuration and get mopidy up and running so that we c
   * Start mopidy with the command, `sudo /path/to/mopidy --config /etc/mopidy/mopidy.conf`.
   * Then connect to the user interface via a web browser  `http://RaspberryPI_IP_Address_Here:6680/musicbox_webclient/index.html`
 
+### Configuring Mopidy With Additional Internet Radio Stations
+
 If you've come this far and have follwed each of the instructions listed above you should have a working Mopidy installation on your Raspberry Pi. If you face errors we would recommend using google and also looking at the Mopidy forums to work through the issues. Your best company is google and lots of patience..:). If you are looking for audio streams to add to your local music repository you might want to check out these URL's - 
+
 * [Internet-Radio.com](https://www.internet-radio.com/)
 * [Australian Live Radio](http://www.australianliveradio.com/)
 * [Listen Live](http://www.listenlive.eu/jazz.html)
 * [Australian Broadcasting Corporation Radion Channels Online](https://radio.abc.net.au/help/streams)
 
 Here are links to a few articles that talks about getting Mopidy up and running with different types of music streams - 
+
 * [Mopidy with Spotify](http://raspberry-at-home.com/mopidy-spotify-client/)
 * [Mopidy with Snapcast](https://home-assistant.io/blog/2016/02/18/multi-room-audio-with-snapcast/)
 * [Raspberry Pi As An Internet Radio](https://baheyeldin.com/technology/linux/raspberry-pi-2-internet-radio-using-mopidy.html)
