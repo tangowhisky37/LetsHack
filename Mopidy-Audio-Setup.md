@@ -11,20 +11,21 @@ Let's step through the commands to download and install the base Mopidy player o
 
 * Make sure you have the "git" client installed on your machines. Most tutorials listed on this website require the use of git to download code from the authors [Github](https://github.com) repository. 
 * If you do not have "git" installed please we will need to download and install git on Raspbian using `bash# sudo apt-get install git`. This will install the git client on your RaspberryPi. We will be using the git client to clone a lot of the repositories included in this tutorial.
-  * Let's start by cloing the github repository for Mopidy from https://github.com/mopidy/mopidy using the following command - `bash# git clone https://github.com/mopidy/mopidy`
-  * Once you've cloned the mopidy repository to your local machines we can proceed and compile mopidy locally on your Raspberry Pi.
-  * Change into the downloaded Mopidy directory to build and install using the following commands, `bash# sudo python setup.py install`. This command will build and install mopidy. Make sure you are using `sudo` before the command because without superuser permissions you will not be able to install the binaries into the system path.
+* Let's start by cloing the github repository for Mopidy from https://github.com/mopidy/mopidy using the following command - `bash# git clone https://github.com/mopidy/mopidy`
+* Once you've cloned the mopidy repository to your local machines we can proceed and compile mopidy locally on your Raspberry Pi.
+* Change into the downloaded Mopidy directory to build and install using the following commands, `bash# sudo python setup.py install`. This command will build and install mopidy. Make sure you are using `sudo` before the command because without superuser permissions you will not be able to install the binaries into the system path.
 * Let's now go ahead and clone the github repository for Mopidy-AlsaMixer from [Github Mopidy AlsaMixer](https://github.com/mopidy/mopidy-alsamixer) using the following command `git clone https://github.com/mopidy/mopidy-alsamixer`
-  * Let's now change into the downloaded mopidy-alsamixer directory to build and install the application. 
-  * To build and install mopidy-mixer issue the following commands, `bash# sudo python setup.py install`. This should build and install mopidy-alsamixer onto the Raspberry Pi.
+* Let's now change into the downloaded mopidy-alsamixer directory to build and install the application. 
+* To build and install mopidy-mixer issue the following commands, `bash# sudo python setup.py install`. This should build and install mopidy-alsamixer onto the Raspberry Pi.
 
 ### Installing Dependencies 
 
 Now that we have installed Mopidy lets review some of the other non-documented dependencies that we might consider installing. If we had not installed Mopidy from source [Github](https://github.com) and rather installed Mopidy using the Raspbian packages `bash# sudo apt-get install mopidy` the system would have auto resolved the dependencies. However, we've chosen not to install the stock packages since they are really outdated. We prefer the latest stable codebase from Github which is the reason why we are taking the pain to go about installing mopidy and it's dependencies the hard way. 
 
-* Lets proceed now and manually install the following packages. These are part of the pre-requisites which i found missing and spent sometime/effort understanding what was required. The commands are - 
- `sudo apt-get install python-gst-1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools` and 
- `sudo apt-get install gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0`
+* Lets proceed now and manually install the following packages. These are part of the pre-requisites which i found missing and spent sometime/effort understanding what was required. 
+* The commands are - 
+ >`sudo apt-get install python-gst-1.0 gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-tools` 
+ >`sudo apt-get install gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0`
 
 With the above step we have completed installation of mopidy and its key dependencies. There are still many plugins avaialble for mopidy which we can't cover in this tutorial. To download and install the relevant plugins (to play different types of audio files, streams, etc.) we would recommend that you visit the mopidy page and look up the documentation. Lets now proceed with configuration of our local mopidy setup on the Raspberry Pi.
 
@@ -45,10 +46,10 @@ It's time to review the configuration and get mopidy up and running so that we c
 * Once you've setup mopidy you should confirm if you are able to connect to the User Interface. Let's start mopidy with the command, `sudo /path/to/mopidy --config /etc/mopidy/mopidy.conf`. 
 * Let's now connect to the user interface via a web browser. This will be a local web site for you to please change the IP address to suit that of your Raspberry Pi `http://RaspberryPI_IP_Address_Here:6680/`.
 * If you have the musicbox client installed you will see a link for it at the above page. Else you'll need to clone the git repository for Mopidy Musicbox Web client using the following command, `bash# git clone https://github.com/pimusicbox/mopidy-musicbox-webclient`.
-  * Change into the downloaded mopidy-musicbox-webclient directory to build and install the webclient. Issue the following commands, `sudo python setup.py install`. This will build and install the mopidy-musicbox-webclient package onto the RaspberryPi.
-  * Once you've installed mopidy music box webclient you should confirm if you are able to connect to the User Interface. 
-  * Start mopidy with the command, `sudo /path/to/mopidy --config /etc/mopidy/mopidy.conf`.
-  * Then connect to the user interface via a web browser  `http://RaspberryPI_IP_Address_Here:6680/musicbox_webclient/index.html`
+* Change into the downloaded mopidy-musicbox-webclient directory to build and install the webclient. Issue the following commands, `sudo python setup.py install`. This will build and install the mopidy-musicbox-webclient package onto the RaspberryPi.
+* Once you've installed mopidy music box webclient you should confirm if you are able to connect to the User Interface. 
+* Start mopidy with the command, `sudo /path/to/mopidy --config /etc/mopidy/mopidy.conf`.
+* Then connect to the user interface via a web browser  `http://RaspberryPI_IP_Address_Here:6680/musicbox_webclient/index.html`
 
 ### Configuring Mopidy With Additional Internet Radio Stations
 
