@@ -4,7 +4,7 @@
 
 This guide was put together while i was assembling 4 Raspberry Pi's for the local Raspberry Pi Hackers group i run. I've had some challenges building the Raspberry Pi A. I used the stock Raspbian distro on a 8 GB SDHC card. The default file system is around ~4GB in size with SWAP around ~128 MB in size. This made working on the Raspberry Pi nearly impossible. Every command would take ages to run and updates to the operating system would run for 20-30 mins as compared to 2-3 ins on a Raspberry Pi 2, or Raspberry Pi 3.  
 
-Also, since the updates ran really slow and i couldn't get any software loaded on it. So I finally decided to re-build the partitions and throw in some additinoal swap space. The memory on the device was 128MB with SWAP as 128 MB created part of the default install. The intention was to resize the disk partition such that i was able to allocate more space to SWAP. This in my mind would increase the performance of the machine and in reality it did so. 
+Also, since the updates ran really slow, i couldn't get any software loaded on it. So I finally decided to re-build the partitions and throw in some additional swap space. The memory on the device was 128MB with SWAP as 128 MB created part of the default install. The intention was to resize the disk partition such that i was able to allocate more space to SWAP. This in my mind would increase the performance of the machine and in reality it did so. 
 
 Please Note - You are responsible for all actions you undertake. If you end up frying your SD card, destroying all your data, loosing all your partitions or evening burning your Pi, you will only have yourself to blame. So use the instructions below with caution. Think before you act and do your homework well. 
 
