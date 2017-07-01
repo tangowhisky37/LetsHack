@@ -31,31 +31,28 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
   - Before you can use git you have to setup a few local variables on your machines
   - The following commands setup your local user name and user email for git to reference. 
   - You can refer to the documentation for additional configuration options. 
-  - bash# git config --global user.name "John Doe"
-  - bash# git config --global user.email "john.doe@doe.com" 
-  - bash# git config --system core.editor vim (This command will only work on unix sysetms where you have vim editor installed) 
+  - `bash# git config --global user.name "John Doe"`
+  - `bash# git config --global user.email "john.doe@doe.com"` 
+  - `bash# git config --system core.editor vim` (This command will only work on unix sysetms where you have vim editor installed) 
 
 - Adding Newly Created Files To A Repo
   - So you'll now perform all your development inside the new folder.
   - You are free to copy content from other folders you might have locally which you want to sync up into the repo.
   - To add a new file to a repo issue the following commands
   - bash# git add filename.txt 
-  - You can also add whole folders, subfolders and files by issuing the following command
-  - bash# git add *
+  - You can also add whole folders, subfolders and files by issuing the following command - `bash# git add *`
 
 - Checking Status of Code 
   - When developing code on your machine you might need to check the status of existing or previous commits to understand what's gone into the repo and what might have not already been committed to the repo. 
-  - To check status just issue the following command while still in the folder which includes the changes you've just made
-  - bash# git status
+  - To check status just issue the following command while still in the folder which includes the changes you've just made - `bash# git status`
   - The above command will tell you what files have changed, which of the changed files you've added (using git add) and which ones have been left out.
 
 - Performing A Commit
   - By issuing the commit you are finalizing the changes and providing comments on what they consist of
-  - bash# git commit -m "These updates include fixes the way the files are copied onto AWS S3"
+  - `bash# git commit -m "These updates include fixes the way the files are copied onto AWS S3"`
 
 - Checking  Files & Folders Into The Repo
-  - Finally check the files into the repo using the following command
-  - bash# git push --set-upstream origin master 
+  - Finally check the files into the repo using the following command - `bash# git push --set-upstream origin master`
   - You will be asked for your github account details. Once you've provided them the code will by pushed into the main repo.
   
 - Pulling updates from your github repo into local repo
@@ -68,15 +65,15 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
   - I have intentionally kept this at the end to keep things simple for you. The easiest way to get started is as mentiond at the start of the tutorial i.e. create a repo online at github.com and then clone the repository to your local development environment wherever it might be located. 
   - In this section we'll look at creating a repo remotely (assumng you do not have a repo with the same name at github.com) and then setting up the repo such that it syncs up as a new repo at github.com.
   - Create a new directory and change paths into that directory
-  - Issue the following command there, "bash# git init"
+  - Issue the following command there, `bash# git init`
   - Go about the development activity you need to perform, create your new files and folders here. If you have content from other projects you wanted to copy over do that. 
   - Once you are ready to commit your files issue the following commands - 
-    - "bash# add filename.txt" or if you want to add entire folders issue the following command, "bash# git add *"
+    - `bash# add filename.txt` or if you want to add entire folders issue the following command, `bash# git add *`
     - Issue the following command to commit your code, "bash# git commit -m "what changes are you commiting in this release"
   - Now that you've done all of the above it's time to create a new repository at Github. Refer to the, "Account Creation" steps above.
   - Once you've created a new github.com repository it's time to configure this new repo on your remote machine where you are currently performing your development tasks. 
   - Issue the following commands, "bash# git remote add origin https://github.com/username/your_new_repo". With your new repo now configured at the remote development location you are now ready to push the comitted code to github.com.
-  - Issue the following command to push the code out, "bash# git push -u origin master".
+  - Issue the following command to push the code out, `bash# git push -u origin master`.
   - Now head over to github.com and check your new repo to see if the code you've just committed shows up there. 
 
 - Additional Reading
