@@ -9,18 +9,18 @@ To read more about the RPi Web Cam project head here - [Rpi Web Cam Project](htt
 * Once you've configured the on-board camera boot up the Raspberry Pi and open up a console. 
 * At the bash prompt you will need to run, 
 
-> `bash# raspi-config`. 
+> `bash# raspi-config` 
 
 At the menu that pop's up go into "Interfacing Options" and enable the camera option there. You will most likely be asked at the end to reboot your Raspberry Pi. Even if you are not asked to reboot your Raspberry Pi it's a good idea at this point to reboot the device.
 * Once the Raspberry Pi comes back online we'll head over to the bash console again and focus on updating the packages on the Raspbian Linux Operating System to the latest packages. The steps for installation include - 
   * Let's make sure our distribution has all the latest packages. We'll upgrade using the following commands - 
-  * To obtain your local repo issue the following command - `
+  * To obtain your local repo issue the following command - 
 
-> bash# sudo apt-get update` 
+> `bash# sudo apt-get update` 
 
   * Once the above step is complete issue the following command to upgrade all the relevant packages for which updates are now available, 
 
-> `bash# sudo apt-get upgrade`.  
+> `bash# sudo apt-get upgrade` 
 
   * The upgrade of the packages will take a while. You might be asked to answer "yes/no" for the installation to continue. Obviously, you'll answer "yes" where relevant.   
 * Once the operating system package update has completed let's  go ahead and clone the repository required to install RasPi cam.
@@ -39,7 +39,7 @@ At the menu that pop's up go into "Interfacing Options" and enable the camera op
   * The installer will ask you a bunch of questions. Most importantly the location for the Raspicam web folder. We would recommend you create a separate folder in /var/www/ called "webcam", since Rpi Cam will copy a lot of content into that folder and you don't want it lying around in your document root i.e. /var/www.
   * Issue the following command to create the directory for Rpi Cam to install all the web content,
 
->  `bash# mkdir /var/www/webcam`.
+>  `bash# mkdir /var/www/webcam`
 
   * Now we are ready to get the installation going. Issue the following command at the bash prompt,
 
