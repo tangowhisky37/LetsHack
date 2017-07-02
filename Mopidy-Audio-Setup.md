@@ -70,7 +70,10 @@ It's time to review the configuration and get mopidy up and running so that we c
 
 > `bash# git clone https://github.com/pimusicbox/mopidy-musicbox-webclient`.
 
-* Change into the downloaded mopidy-musicbox-webclient directory to build and install the webclient. Issue the following commands, `sudo python setup.py install`. This will build and install the mopidy-musicbox-webclient package onto the RaspberryPi.
+* Change into the downloaded mopidy-musicbox-webclient directory to build and install the webclient. Issue the following commands to build and install the mopidy-musicbox-webclient package onto the RaspberryPi.
+
+> `bash# sudo python setup.py install`
+
 * Once you've installed mopidy music box webclient you should confirm if you are able to connect to the User Interface. 
 * Start mopidy with the command, 
 
