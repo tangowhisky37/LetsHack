@@ -35,28 +35,28 @@ Before we can go ahead and install mps-youtube we need to install the above depe
 
 Head over to [pafy](https://github.com/mps-youtoube/pafy) and download the latest codebase to your Raspberry Pi or instead use git at the terminal to clone the repository.
 
-> bash# git clone https://github.com/mps-youtoube/pafy
+> `bash# git clone https://github.com/mps-youtoube/pafy`
 
 The above command will clone the pafy codebase to your local disk on the Raspberry Pi. Change into the pafy directory to kick off the build process.
 
-> bash# sudo python3 setup.py install
+> `bash# sudo python3 setup.py install`
 
 The above command will build the pafy code and then copy the libraries into the relevant Python3 library path on the Raspberry Pi. Make sure that the build and installation have completed without any issue before you move onto installing the next dependency. Now that pafy is out of the way let proceeed with the build and installation of youtube-dl.
 
 Head over to [youtube-dl](https://github.com/rg3/youtube-dl) and download the latest codebase to your Raspberry Pi or instead use git at the terminal to clone th
 e repository.
 
-> bash# git clone https://github.com/rg3/youtube-dl
+> `bash# git clone https://github.com/rg3/youtube-dl`
 
 The above command will clone the youtube-dl codebase to your local disk on the Raspberry Pi. Change into the youtube-dl directory to kick off the build process.
 
-> bash# sudo python3 setup.py install
+> `bash# sudo python3 setup.py install`
 
 The above command will build the youtube-dl code and then copy the libraries into the relevant Python3 library path on the Raspberry Pi. Now we could have installed youtube-dl using the existing repository for the Raspberry Pi or using pip but i choose not to do either. I've gone down both the paths and I've had issues getting mps-youtube working hence my recommendation to download the source and get them compiled locally using Python3. That way you know you've got the latest versions of all the libraries. 
 
 There's two final dependencies you'll need to install. Make sure you are installing the Python3 versions of the package.
 
-> bash# sudo pip3 install dbus-python pygobject
+> `bash# sudo pip3 install dbus-python pygobject`
 
 We are now ready to move onto the next step and consider installation of the mps-youtube package.
 
@@ -67,11 +67,11 @@ With installation of both Pafy and youtube-dl out of the way we can now focus on
 Head over to [mps-youtube](https://github.com/mps-youtoube/mps-youtube) and download the latest codebase to your Raspberry Pi or instead use git at the terminal to clone th
 e repository.
 
-> bash# git clone https://github.com/mps-youtoube/mps-youtube
+> `bash# git clone https://github.com/mps-youtoube/mps-youtube`
 
 The above command will clone the mps-youtube codebase to your local disk on the Raspberry Pi. Change into the mps-youtube directory to kick off the build process.
 
-> bash# sudo python3 setup.py install
+> `bash# sudo python3 setup.py install`
 
 The above command will build the mps-youtube code and then copy the libraries into the relevant Python3 library path on the Raspberry Pi. Make sure that the build and installation have completed without any issue. If for whatever reasons the build fails you have to go back and work through the issues involved. If things were to go pear shaped I would recommend grabbing a cup of coffee and making google, patience your best fried.
 
@@ -81,7 +81,7 @@ mps-youtube seems to support both mplayer and mpv. I initially tried getting mps
 
 So let's go ahead and install mpv and mplayer to be on the safer side.
 
-> bash# sudo apt-get install mplayer mpv
+> `bash# sudo apt-get install mplayer mpv`
 
 With the above complete you are ready to launch mps-youtube. 
 
@@ -89,7 +89,7 @@ With the above complete you are ready to launch mps-youtube.
 
 With the installation of all the dependencies, mps-youtube, mplayer and mpv out of the way you are now ready to launch mps-youtube to play some of your favorite music. Issue the following command to launch mps-youtube.
 
-> bash# sudo mpsyt
+> `bash# sudo mpsyt`
 
 As mentioned earlier, if you are having issues getting the mps-youtube to play music using youtube, you might need to change the settings and get mps-youtube to play music using mpv. Either ways I would recommend reading through the documentation at the [mps-youtube](https://github.com/mps-youtoube/mps-youtube) github page to see mps-youtube in action and understand the syntax.
 
