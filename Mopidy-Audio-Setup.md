@@ -1,5 +1,5 @@
 
-### Mopidy (Audio Server) on the Raspberry Pi 3
+### Turning your Raspberry Pi 3 into a smart audio streaming solution using Mopidy (Audio Server)
 
 Mopidy is an extensible music server that plays music from local disk, Spotify, SoundCloud, Google Play Music, and more. There are many different user interfaces (web client, etc.) wich you can download and use to view, edit the playlist from any handheld device i.e. phone, tablet including a computer. Mopidy also allows the use of range of MPD (Older Music Player Daemon) client for which applications are available at the Apple and Andriod stores. Head off to https://www.mopidy.com to learn more about the Mopidy music server and what it has to offer.
 
