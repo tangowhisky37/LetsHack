@@ -33,8 +33,11 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
   - The following commands setup your local user name and user email for git to reference. 
   - You can refer to the documentation for additional configuration options. 
   > `bash# git config --global user.name "John Doe"`
+
   > `bash# git config --global user.email "john.doe@doe.com"` 
+
   > `bash# git config --system core.editor vim`
+
   > `bash# git config --global credential.helper "cache --timeout=3600"`
 
 #### Adding Newly Created Files To A Repo
