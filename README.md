@@ -2,21 +2,37 @@
 ### What Is The RaspiSetupGuide About 
 The installation guides below have mostly been written up as notes to myself to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi including in some cases on-going systems administration of the Linux (Raspbian) operating system that runs on the Raspberry Pi. I believe some of this information might be useful would also be useful to some of you out there who might stumble across simliar issues with your own Raspberry Pi's. 
 
-* [Mopidy (Audio Server) on the Raspberry Pi 3](/Mopidy-Audio-Setup.md)
-* [RPi Web Cam - RaspberryPi Web Cam](/Webcam-Setup.md)
+* [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/Mopidy-Audio-Setup.md)
+* [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
 * [Git Tutorial](/Git-Tutorial.md)
 * [Youtube on the Command Line](/Youtube-On-CommandLine.md)
 
 ### In The Works - 
-* Setting up a USB Web Camera on Raspberry Pi 3
+* Evolution of the Raspberry Pi
+* Overview of the Raspberry Pi 3
+* Burning the SD Card & Booting up your Raspberry Pi
+* Configuring your Raspberry Pi to connect to a Wireless Network
+* Performing basic configuration on your Raspberry Pi using "raspi-config"
+* Setting up your Raspberry Pi for remote (Command Line) access using SSH
+* Setting up your Raspberry Pi for remote (GUI) access using VNC
 * Setting up your RaspberryPi 3 to able to VNC (remote connection) to the main display
+* Linux survival basics - Introduction to the BASH shell and key commands
 * Mounting an external Windows recoginzed USB Device (& File System) on the RaspberryPi 3
+* ~~Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam~~
+* Setting up a USB Web Camera on Raspberry Pi 3 
+* Configuring the Raspberry Pi to play audio, video
+* Interacting with the real world using GPIO. Build simple circuits. 
 * Changing the default sound output on the Raspberry Pi 3
 * Installing and testing a USB mike on the Raspberry Pi 3
+* ~~Turn your Raspberry Pi into a smart audio streaming solution using Mopidy~~
+* ~~Hacking the disk layout on a Raspberry Pi Model A~~
+* ~~Custom Node Red Installation~~
+* ~~Git Introductory Tutorial~~
+* ~~Youtube on the Command Line~~
 
-### Thanks - 
+### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
 
 ### Who the hell is tangowhisky37 - 
