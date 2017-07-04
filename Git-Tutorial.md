@@ -25,8 +25,8 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
   - As an example head over to my repo at http://github.com/tangowhisky37/RaspiPythonProjects/
   - Click on the "Clone or Download" option and you'll see the following URL, "https://github.com/tangowhisky37/RaspiPythonProjects.git"
   - If you were to clone this repo you would need to copy this URL to the machine where you wanted to clone (Download) the repo.
-  - Open up a prompt on the target host and issue the following commands.
-  > `bash# git clone <URL>` (use the URL you've obtained above)
+  - Open up a prompt on the target host and issue the following commands. Use the URL you've obtained above.
+  > `bash# git clone <URL>` 
 
 #### Git local configuration 
   - Before you can use git you have to setup a few local variables on your machines
@@ -34,7 +34,7 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
   - You can refer to the documentation for additional configuration options. 
   > `bash# git config --global user.name "John Doe"`
   > `bash# git config --global user.email "john.doe@doe.com"` 
-  > `bash# git config --system core.editor vim` (This command will only work on unix sysetms where you have vim editor installed) 
+  > `bash# git config --system core.editor vim`
   > `bash# git config --global credential.helper "cache --timeout=3600"`
 
 #### Adding Newly Created Files To A Repo
