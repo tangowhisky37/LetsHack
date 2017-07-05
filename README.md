@@ -7,6 +7,7 @@ The installation guides below have mostly been written up as notes to myself to 
 * [Detection motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
 * [Git Tutorial](/Git-Tutorial.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
+* [Installing Alexa on the Raspberry Pi](/Alexa-On-Raspberry-Pi.md)
 * [Interacting with Analog Sensors (PIR Module) using the ADC (MCP 3008) and the Raspberry Pi](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/ReadingAnalogSensors)
 * [IoT - Obtain Temperature & Humidity using the DHT11 & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity)
 * [IoT - Obtain Temperature & Humidity data from the Arduino MEGA (DHT 11) & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity_Pull_Data_Arduino)
@@ -41,7 +42,8 @@ The installation guides below have mostly been written up as notes to myself to 
 * Interacting with the real world using GPIO. Build simple circuits. 
 * Changing the default sound output on the Raspberry Pi 3
 * Installing and testing a USB mike on the Raspberry Pi 3
-* OpenCV - Face detection using AWS S3, AWS Rekognition, AWS Lambda. Read out current weather on positive match.
+* ~~Installing Alexa on the Raspberry Pi~~
+* ~~OpenCV - Face detection using AWS S3, AWS Rekognition, AWS Lambda. Read out current weather on positive match.~~
 * ~~Turn your Raspberry Pi into a smart audio streaming solution using Mopidy~~
 * ~~Hacking the disk layout on a Raspberry Pi Model A~~
 * ~~Custom Node Red Installation~~
