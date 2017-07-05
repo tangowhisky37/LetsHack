@@ -2,12 +2,18 @@
 ### What Is The RaspiSetupGuide About 
 The installation guides below have mostly been written up as notes to myself to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi including in some cases on-going systems administration of the Linux (Raspbian) operating system that runs on the Raspberry Pi. I believe some of this information might be useful would also be useful to some of you out there who might stumble across simliar issues with your own Raspberry Pi's. 
 
-* [Blink LED's - Interacting with LED's through GPIO](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/BlinkLEDs)
+### HowTos -
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
-* [Detection motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
 * [Git Tutorial](/Git-Tutorial.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Installing Alexa on the Raspberry Pi](/Alexa-On-Raspberry-Pi.md)
+* [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
+* [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/Mopidy-Audio-Setup.md)
+* [Youtube on the Command Line](/Youtube-On-CommandLine.md)
+
+### Just Code : Projects Completed + Projects Under Development -
+* [Blink LED's - Interacting with LED's through GPIO](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/BlinkLEDs)
+* [Detection motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
 * [Interacting with Analog Sensors (PIR Module) using the ADC (MCP 3008) and the Raspberry Pi](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/ReadingAnalogSensors)
 * [IoT - Obtain Temperature & Humidity using the DHT11 & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity)
 * [IoT - Obtain Temperature & Humidity data from the Arduino MEGA (DHT 11) & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity_Pull_Data_Arduino)
@@ -20,10 +26,6 @@ The installation guides below have mostly been written up as notes to myself to 
   * [OpenCV - Face detection using AWS S3, AWS Rekognition. Read out current weather on positive match](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream)
   * [OpenCV - Face detection using AWS S3, AWS Rekognition with multiple images on the source image. Read out weather on positive match](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream_MultipleSourceFaceNoLambda)
 * [Sensing light using the Photo Resistor Light Sensor Module](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/LightSensor)
-* [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
-* [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/Mopidy-Audio-Setup.md)
-* [Youtube on the Command Line](/Youtube-On-CommandLine.md)
-
 
 ### In The Works - 
 * Evolution of the Raspberry Pi
