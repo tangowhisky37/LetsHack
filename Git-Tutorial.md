@@ -90,6 +90,14 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
     > `bash# git push -u origin master`.
   - Now head over to github.com and check your new repo to see if the code you've just committed shows up there. 
 
+#### Delete Files That You've Just Added (for a commit)
+  - We all make mistakes, who doesn't. So if you've just added a file or files using "git add" you can undo that with the following command.
+    > `bash# git reset <filename>`
+  - If you want to delete all of the files you've just added use the following command.
+    > `bash# git reset`
+  - To check whether all the files are no longer being considered by git for commit using the status command as follows.
+    > `bash# git status`
+
 #### Additional Reading
   - For additional reading please visit - 
     - kbroman.org/github_tutorial/
