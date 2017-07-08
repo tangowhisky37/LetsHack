@@ -23,11 +23,14 @@ Hopefully some of the information here will be useful to some of you out there w
 * [IoT - Weather data acquisition using OWM and upload to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Weather_Reporting)
 * [IoT - Weather data acquisition and write to LCD](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_To_LCD_Screen)
 * [IoT - Weather data acquisition and write to Twitter](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_Weather_To_Twitter)
-* [OpenCV + Raspberry Pi Camera + Amazon Web Services (AWS)](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV)
-  * [OpenCV - Simple face detection](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureFaces)
-  * [OpenCV - Capture single image from video stream using the Raspberry Pi Camera](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureSingleImage)
-  * [OpenCV - Face detection using AWS S3, AWS Rekognition. Read out current weather on positive match](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream)
-  * [OpenCV - Face detection using AWS S3, AWS Rekognition with multiple images on the source image. Read out weather on positive match](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream_MultipleSourceFaceNoLambda)
+* [Robotics - GoPiGo obstacle avoidance robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_obstacle_avoidance_robot)
+* [Robotics - GoPiGo keyboard controlled robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_robot_keyboard_conrolled)
+* [Robotics - GoPiGo browser controlled robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_Robot_Browser_Controlled)
+* [Face detection usuing : Python + OpenCV + Raspberry Pi Camera + Amazon Web Services (AWS)](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV)
+* [Simple Face detection : Python + OpenCV + AWS Rekognition](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureFaces)
+* [Detecting faces in a video stream : Python + OpenCV + AWS Rekognition](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureSingleImage)
+* [Detecting faces in a video stream + STT (Speech To Text) : Python + OpenCV + AWS S3 + AWS Rekognition](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream)
+* [Face detection using Python + OpenCV + AWS S3 + AWS Rekognition with multiple faces within the source image](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/OpenCV/CaptureVideoStream_MultipleSourceFaceNoLambda)
 * [Sensing light using the Photo Resistor Light Sensor Module](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/LightSensor)
 
 ### In The Works - 
@@ -56,16 +59,17 @@ Hopefully some of the information here will be useful to some of you out there w
 * ~~Youtube on the Command Line~~
 
 ### Important Links - 
-* [Raspberry Pi Foundation](http://www,raspberrypi.org)
-* [Raspberry Pi Magazine](http://www,raspberrypi.org/magpi/)
+* [Raspberry Pi Foundation](http://www.raspberrypi.org)
+* [Raspberry Pi Magazine](http://www.raspberrypi.org/magpi/)
 * [Arduino.cc](http://www.arduino.cc)
 * [Arduino.org](http://www.arduino.org)
-* [Drag and drop interface to design circuits and auto-generate code](http://wwww.circuito.io)
-* [Makezine](http://makezine.com)
-* [Makers guide to boards](http://makezine.com/comparison/boards/)
+* [Cicrcuito - Drag and drop interface to design circuits and auto-generate code](http://wwww.circuito.io)
+* [Makezine - Magazine for makers](http://makezine.com)
+* [Makezine's guide to boards for makers](http://makezine.com/comparison/boards/)
 * [PiBakery - Create pre-configured SD card images for your Raspberry Pi](http://www.pibakey.org)
 * [Etcher - Write Raspberry Pi Image to the SD Card](http://etcher.io)
 * [Win32DiskImager - Write Raspberry Pi Images to the SD Card](http://sourceforge.net/projects/win32diskimager/)
+* [Fritzing - Software to design circuits](http://fritzing.org)
 
 ### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
