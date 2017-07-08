@@ -55,6 +55,18 @@ Hopefully some of the information here will be useful to some of you out there w
 * ~~Git Introductory Tutorial~~
 * ~~Youtube on the Command Line~~
 
+### Important Links - 
+* [Raspberry Pi Foundation](http://www,raspberrypi.org)
+* [Raspberry Pi Magazine](http://www,raspberrypi.org/magpi/)
+* [Arduino.cc](http://www.arduino.cc)
+* [Arduino.org](http://www.arduino.org)
+* [Drag and drop interface to design circuits and auto-generate code](http://wwww.circuito.io)
+* [Makezine](http://makezine.com)
+* [Makers guide to boards](http://makezine.com/comparison/boards/)
+* [PiBakery - Create pre-configured SD card images for your Raspberry Pi](http://www.pibakey.org)
+* [Etcher - Write Raspberry Pi Image to the SD Card](http://etcher.io)
+* [Win32DiskImager - Write Raspberry Pi Images to the SD Card](http://sourceforge.net/projects/win32diskimager/)
+
 ### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
 
