@@ -70,6 +70,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Etcher - Write Raspberry Pi Image to the SD Card](http://etcher.io)
 * [Win32DiskImager - Write Raspberry Pi Images to the SD Card](http://sourceforge.net/projects/win32diskimager/)
 * [Fritzing - Software to design circuits](http://fritzing.org)
+* [Installing OpenCV 3 on the Raspberry Pi 3 (Raspbian Jessie)](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
 
 ### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
