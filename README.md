@@ -3,7 +3,7 @@
 
 The HowTo guides that I have put together have mostly been written up as notes to myself. These notes to myself were intended to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi and need to setup the device integrating it with my existing lab setup at home. Over a period of time site this has evolved to also include most of the common systems administration tasks one would need to perform when running Linux (Raspbian) operating system on the Raspberry Pi. A point also worth noting is that The collection of articles initially focused on the Raspberry Pi but over a period of time as I began hacking with the Arduino Uno, Ardino MEGA, ESP8266, ESP32, etc. I've ended up listing all of those relevant projects and HowTo's as well.
 
-Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. 
+Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. Enjoy!!!
 
 ### HowTos -
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
