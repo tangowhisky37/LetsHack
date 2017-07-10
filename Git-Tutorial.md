@@ -90,13 +90,28 @@ Here's a tutorial on the very basics of git. These are provided in a logical seq
     > `bash# git push -u origin master`.
   - Now head over to github.com and check your new repo to see if the code you've just committed shows up there. 
 
-#### Delete Files That You've Just Added (for a commit)
+#### Remove Files That You've Just Added (for a commit)
   - We all make mistakes, who doesn't. So if you've just added a file or files using "git add" you can undo that with the following command.
     > `bash# git reset <filename>`
   - If you want to delete all of the files you've just added use the following command.
     > `bash# git reset`
   - To check whether all the files are no longer being considered by git for commit using the status command as follows.
     > `bash# git status`
+
+### Deleting Files and Folders from your Repository
+  - There are times when you'll move folders around and then need to delete the older content from your repo. Git doesn't automatically delete the older content even though you've renamed the files.
+  - You might also want to delete a file for a particular reason. Deleting it from disk is simple. Just issue your normal linux command as follows - 
+    > `bash# rm -fr ./<foldername>` 
+  - Or the following command if you are just deleting a file on linux - 
+    > `bash# rm <filename>`
+  - On the first command PLEASE make sure you have no space between the ./ and <foldername> else you'll delete all the contents of your folder and everything inside it. Don't tell me I didn't warn you.
+  - Once you've done the above the files are now deleted from your file system. However if you run the status command (see below) you'll notice that the deleted files or/and folders show up in red and not green (means marked as part of the commit). 
+    > `bash# git status`
+  - To get rid of the deleted files and/or folders from your git repo issue the following command - 
+    > `bash# git add -u .`
+  - To see if the files are now marked for deletion issue the following status command - 
+    > `bash# git status`
+  - The result of the above command should depict all the files you've just deleted as marked in "green" for deletion. Once you issue the commit and push commands git will make the changes on your master repo.
 
 #### Additional Reading
   - For additional reading please visit - 

@@ -8,6 +8,7 @@ Hopefully some of the information here will be useful to some of you out there w
 ### HowTos -
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
 * [Git Tutorial](/Git-Tutorial.md)
+* [Git SSL Issues and how you might fix them](/GIT-SSL-Issues.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Installing Alexa on the Raspberry Pi](/Alexa-On-Raspberry-Pi.md)
 * [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
