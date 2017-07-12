@@ -12,6 +12,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
 * [Installing Alexa on the Raspberry Pi](/Alexa-On-Raspberry-Pi.md)
 * [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
+* [SSH and SCP connections hang on launch](/SSH-Hangs-On-Launch.md)
 * [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/Mopidy-Audio-Setup.md)
 * [Youtube on the Command Line](/Youtube-On-CommandLine.md)
 
