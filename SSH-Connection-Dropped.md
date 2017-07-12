@@ -11,7 +11,8 @@
 ### Root Cause Analysis Suggests.......
 
 * On the SSH client side when you attempt to SSH to the affected Raspberry Pi remote host, you don't quite get to the login screen. Instead your SSH connection is closed right away with the following  message: 
-  > `Connection closed by XXXX`  or
+  > `Connection closed by XXXX` 
+* Or you might even see the following message:
   > `Connection reset by XXXX`
 * On the affected Raspberry Pi within the system logs, one can see the following error messages (Logfile - /var/log/auth.log on Raspbian) - 
 ```
@@ -26,7 +27,8 @@ Oct 16 08:59:45 openstack sshd[1214]: fatal: No supported key exchange algorithm
 
 ### Fixing The Issue
 
-* Let's go ahead and fix the issue by manually creating the SSH keys. The steps are simple but a bit tedious. Watch out for typos. In-correct spelling mean that SSH will continue to complain about missing keys.
+* Let's go ahead and fix the issue by manually creating the SSH keys. The steps are simple but a bit tedious. Watch out for typos. 
+* In-correct spellings mean that SSH will continue to complain about missing keys.
 * Issue the following commands to create all the required keys. The following command creates the RSA key.
   > `bash# sudo ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key`
 * The following command creates the DSA key.
