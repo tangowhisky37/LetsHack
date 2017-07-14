@@ -7,6 +7,7 @@ Hopefully some of the information here will be useful to some of you out there w
 
 ### HowTos -
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
+* [Curses based Command Line Radio Player](/Curses-Radio-Player.md)
 * [Git Tutorial](/Git-Tutorial.md)
 * [Git SSL Issues and how you might fix them](/GIT-SSL-Issues.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
