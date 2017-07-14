@@ -11,7 +11,8 @@ This short piece focuses on configuring your Raspberry Pi to launch radio statio
 
 ### What Is PyRadio
 
-* PyRadio is a console based Internet radio player. PyRadio was written by Ben Dowling, a 29 year old British Software Engineer based in Mountain View, California. Ben loves writing code, learning, and launching new products.
+* PyRadio is a console based Internet radio player. You can read more about PyRadio here [http://www.coderholic.com/pyradio/](http://www.coderholic.com/pyradio/).
+* PyRadio was written by Ben Dowling, a 29 year old British Software Engineer based in Mountain View, California. Ben loves writing code, learning, and launching new products.
 * PyRadio is implemented in Python, and uses mplayer for media playback. PyRadio has been tested under Ubuntu 9.04, but should run without any problems under most UNIX based operating systems. 
 * I've been able to compile PyRadio on Rapbian on the Raspberry Pi 3, so you shouldn't have any issues getting it up and running on the Raspberry Pi. 
 * To get it running you'll need Python and mplayer. Let's get started by installing mplayer.
