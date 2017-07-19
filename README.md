@@ -6,6 +6,7 @@ The HowTo guides that I have put together have mostly been written up as notes t
 Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. Enjoy!!!
 
 ### HowTos -
+* [Browser Controlled Robot with Streaming Video](/BrowserControlledRobot.md)
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
 * [Curses based Command Line Radio Player](/Curses-Radio-Player.md)
 * [Git Tutorial](/Git-Tutorial.md)
