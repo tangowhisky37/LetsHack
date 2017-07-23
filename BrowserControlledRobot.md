@@ -15,8 +15,16 @@
 
 **Usage:**
 
-* To start we need to resolve a bunch of depedencies and install some software. So let's get going.
-* Make the browser_stream_setup.sh script executable
+* To start we need to clone the python project repository which will give us access to the code we need. 
+* We can then work on resolving a bunch of depedencies and install some software. So let's get going.
+
+ >      bash# git clone https://github.com/tangowhisky37/RaspiPythonProjects.git
+
+* Change into the folder containing the code for the browser controller GoPiGo robot.
+
+ >      bash# cd Gopigo_Robot_Browser_Controlled
+
+* Let's get started with the installation. But before we do that we need to make the browser_stream_setup.sh script executable
 
  >      bash# chmod +x ./browser_stream_setup.sh
 
