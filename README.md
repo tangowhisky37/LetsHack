@@ -66,18 +66,23 @@ Hopefully some of the information here will be useful to some of you out there w
 
 ### Important Links - 
 * [Raspberry Pi Foundation](http://www.raspberrypi.org)
-* [Raspberry Pi Magazine](http://www.raspberrypi.org/magpi/)
 * [Arduino.cc](http://www.arduino.cc)
 * [Arduino.org](http://www.arduino.org)
 * [Cicrcuito - Drag and drop interface to design circuits and auto-generate code](http://wwww.circuito.io)
-* [Makezine - Magazine for makers](http://makezine.com)
-* [Makezine's guide to boards for makers](http://makezine.com/comparison/boards/)
 * [PiBakery - Create pre-configured SD card images for your Raspberry Pi](http://www.pibakey.org)
 * [Etcher - Write Raspberry Pi Image to the SD Card](http://etcher.io)
 * [Win32DiskImager - Write Raspberry Pi Images to the SD Card](http://sourceforge.net/projects/win32diskimager/)
 * [Fritzing - Software to design circuits](http://fritzing.org)
-* [Installing OpenCV 3 on the Raspberry Pi 3 (Raspbian Jessie)](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
 * [PiNet - Centralised user accounts & file storage system for a Raspberry Pi Classroom](http://pinet.org.uk)
+
+### Documentation & Tutorials - 
+* [A Beginners Guide to the Arduino](http://wwww.instructables/com/id/A-Begginers-Guide-to-Arduino/) 
+* [A Begginers Guide to the ESP8266](https://tttapa.github.io)
+* [ESP8266 Wifi Shield for Arduino Uno, Arduino MEGA 2560 by Diot.AM](https://fineshang.gitbooks.io/esp8266-based-serial-wifi-shield-for-arduino-user/content/)
+* [Installing OpenCV 3 on the Raspberry Pi 3 (Raspbian Jessie)](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
+* [Makezine - Magazine for makers](http://makezine.com)
+* [Makezine's guide to boards for makers](http://makezine.com/comparison/boards/)
+* [Raspberry Pi Magazine](http://www.raspberrypi.org/magpi/)
 
 ### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
