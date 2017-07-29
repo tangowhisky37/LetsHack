@@ -91,7 +91,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Sparkfun](http://sparkfun.com)
 * [Little Bird Electronics](https://littlebirdelectronics.com.au/)
 * [Tronix Labs](https://tronixlabs.com.au)
-* [Core Electronics](https://www.core-electronics.com.au]
+* [Core Electronics](https://www.core-electronics.com.au)
 * [Jaycar](http://www.jaycar.com.au)
 * [Robotgear Australia](http://www.robotgear.com.au)
 * [Freetronics](http://www.freetronics.com.au)
