@@ -76,6 +76,8 @@ Hopefully some of the information here will be useful to some of you out there w
 * [PiNet - Centralised user accounts & file storage system for a Raspberry Pi Classroom](http://pinet.org.uk)
 
 ### Documentation & Tutorials - 
+* [Adafruit Electronics Tutorials](https://learn.adafruit.com/)
+* [Sparkfun Electronics Tutorials](https://learn.sparkfun.com/)
 * [A Beginners Guide to the Arduino](http://wwww.instructables/com/id/A-Begginers-Guide-to-Arduino/) 
 * [A Begginers Guide to the ESP8266](https://tttapa.github.io)
 * [ESP8266 Wifi Shield for Arduino Uno, Arduino MEGA 2560 by Diot.AM](https://fineshang.gitbooks.io/esp8266-based-serial-wifi-shield-for-arduino-user/content/)
@@ -83,6 +85,19 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Makezine - Magazine for makers](http://makezine.com)
 * [Makezine's guide to boards for makers](http://makezine.com/comparison/boards/)
 * [Raspberry Pi Magazine](http://www.raspberrypi.org/magpi/)
+
+### Purchasing Electronics, Arduino's, Rapberry Pi's Online - 
+* [Adafruit](http://adafruit.com)
+* [Sparkfun](http://sparkfun.com)
+* [Little Bird Electronics](https://littlebirdelectronics.com.au/)
+* [Tronix Labs](https://tronixlabs.com.au)
+* [Core Electronics](https://www.core-electronics.com.au]
+* [Jaycar](http://www.jaycar.com.au)
+* [Robotgear Australia](http://www.robotgear.com.au)
+* [Freetronics](http://www.freetronics.com.au)
+* [Pakronics](http://www.pakronics.com.au)
+* [AusElectronicsDirect](http://www.auselectronicsdirect.com.au/)
+* [Digikey](https://www.digikey.com.au/)
 
 ### Thanks for visiting - 
 Hopefully you have found some value in the guides that have been published at this site. If you have any input or feedback please drop me an email at trevor at practical performance analyst dot com. You can see the rest of my open contributions at [Github](https://github.com/tangowhisky37)
