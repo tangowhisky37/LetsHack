@@ -86,6 +86,8 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Makezine - Magazine for makers](http://makezine.com)
 * [Makezine's guide to boards for makers](http://makezine.com/comparison/boards/)
 * [Raspberry Pi Magazine](http://www.raspberrypi.org/magpi/)
+* [Arduino Blog - http://arduino-er.blogspot.com.au](http://arduino-er.blogspot.com.au)
+* [IoT Blog on ESP32, ESP8266 - https://randomnerdtutorials.com/](https://randomnerdtutorials.com/)
 
 ### Purchasing Electronics, Arduino's, Rapberry Pi's Online - 
 * [Adafruit](http://adafruit.com)
