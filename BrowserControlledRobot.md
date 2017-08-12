@@ -13,7 +13,6 @@
 
 ![Controlling the GoPiGo robot with a mobile phone](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Software/Python/Examples/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Streaming video from your Raspberry Pi Robot to your mobile phone.")
 
-**Usage:**
 
 * To start we need to clone the python project repository which will give us access to the code we need. 
 * We can then work on resolving a bunch of depedencies and install some software. So let's get going.
