@@ -87,7 +87,7 @@ Let's now get started with the installation and configuration process.
 
 Personally I prefer the command line verion of git but you can work with the GUI if that's what you prefer. For tutorials on how to use git and the common git commands please refer to the main page of this website. You'll find introductory tutorials on using git for purposes of source code managemet. 
 
-If you prefer using the GUI version of git and would prefer seeing the GUI version in action please head off to the [RandomNerdTutorials Website](http://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/](http://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+If you prefer using the GUI version of git and would prefer seeing the GUI version in action please head off to the [RandomNerdTutorials Website](http://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 * Step 3 - Open up your Arduino installation folder. For me this happened to be C:\Program Files (x86)\Arduino\ 
 * Step 4 - Create the additional folders (espressif\esp32) in your Arduino installation folder called "hardware" - C:\Program Files (x86)\Arduino\hardware\espressif\esp32
