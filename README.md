@@ -9,6 +9,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Browser Controlled Robot with Streaming Video](/BrowserControlledRobot.md)
 * [Custom Node Red Installation](/Node-Red-Setup.md) 
 * [Curses based Command Line Radio Player](/Curses-Radio-Player.md)
+* [Configuring your Arduino IDE for use with the ESP32 (NodeMCU - DevKit v1 - DOIT)](/ESP32ArduinoIDE.md)
 * [Git Tutorial](/Git-Tutorial.md)
 * [Git SSL Issues and how you might fix them](/GIT-SSL-Issues.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
