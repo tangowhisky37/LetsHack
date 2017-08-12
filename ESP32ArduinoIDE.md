@@ -11,6 +11,8 @@ In this tutorial we'll go over the process to install the relevant software requ
 
 The ESP32 [esp32.net](http://esp32.net) is a 2.4 GHz Wi-Fi and Bluetooth combo chip with TSMC low power 40nm technology. The ESP32 offers some of the best power performance and RF performance combined with Robustness, versatility and reliability. ESP32 is highly-integrated with in-built antenna switches, RF balun, power amplifier, low-noise receive amplifier, filters, and power management modules. ESP32 adds priceless functionality and versatility to your applications with minimal Printed Circuit Board (PCB) area requirements. ESP32 can perform as a  complete standalone system or as a slave device to a host MCU, reducing communication stack overhead on the main application processor. ESP32 can interface with other systems to provide Wi-Fi and Bluetooth functionality through the SPI / SDIO or I2C / UART interfaces. Engineered for mobile devices, wearable electronics and IoT applications, ESP32 achieves ultra-low power consumption with a combination of several types of proprietary software. The state-of-the-art power saving features include fine resolution clock gating, power modes, and dynamic power scaling. ESP32 is capable of functioning reliably in industrial environments with an operating temperature ranging from -40°C to +125°C. Powered by advanced calibration circuitries, ESP32 can dynamically remove external circuit imperfections or adapt to changes in external conditions.
 
+![ESP32](https://github.com/tangowhisky37/RasPiSetupGuide/blob/master/images/DOIT_ESP32-DevKit-V1.jpg)
+
 Some of the key features of the ESP32 include - 
 
 * 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
@@ -73,6 +75,10 @@ You can pick up a board at the following websites -
 The boards will generally take around 2-4 weeks to ship from china depending on which part of the world you live in. Have patience and grab a cup of coffee...:)
 
 ### Getting Started With The Installation Process
+
+The end state with your ESP32 Dev Module configured for use within Arduino will look something like this....
+
+![Arduino IDE with ESP32](https://github.com/tangowhisky37/RasPiSetupGuide/blob/master/images/ide-arduino-esp32-demo-led-blink-geekcreit.jpg)
 
 Let's now get started with the installation and configuration process. 
 
