@@ -79,6 +79,9 @@ Hopefully some of the information here will be useful to some of you out there w
 ### Documentation & Tutorials - 
 * [Adafruit Electronics Tutorials](https://learn.adafruit.com/)
 * [Sparkfun Electronics Tutorials](https://learn.sparkfun.com/)
+* [Circuitbasics](http://www.circuitbasics.com/)
+* [RandomNerdTutorials](https://randomnerdtutorials.com/)
+* [ProgrammingElectronics](https://programmingelectronics.com/home/)
 * [A Beginners Guide to the Arduino](http://wwww.instructables/com/id/A-Begginers-Guide-to-Arduino/) 
 * [A Begginers Guide to the ESP8266](https://tttapa.github.io)
 * [ESP8266 Wifi Shield for Arduino Uno, Arduino MEGA 2560 by Diot.AM](https://fineshang.gitbooks.io/esp8266-based-serial-wifi-shield-for-arduino-user/content/)
