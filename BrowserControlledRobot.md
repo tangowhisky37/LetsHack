@@ -13,7 +13,7 @@
 
 ![Controlling the GoPiGo robot with a mobile phone](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Software/Python/Examples/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Streaming video from your Raspberry Pi Robot to your mobile phone.")
 
-
+### Clone The Git Repository
 * To start we need to clone the python project repository which will give us access to the code we need. 
 * We can then work on resolving a bunch of depedencies and install some software. So let's get going.
 
@@ -23,6 +23,7 @@
 
  >      bash# cd Gopigo_Robot_Browser_Controlled
 
+### Installing The Dependencies
 * Let's get started with the installation. But before we do that we need to make the browser_stream_setup.sh script executable
 
  >      bash# chmod +x ./browser_stream_setup.sh
@@ -53,6 +54,7 @@
  >      bash# make
  >      bash# sudo make install
 
+### Running The Robot Web Server Application
 * With all the installation now out of the way you are now able to proceed with launch of the streaming, browser control program.
 *  Make robot_web_server.py executable
 
