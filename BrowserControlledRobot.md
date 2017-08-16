@@ -7,11 +7,10 @@
 * You can read more about this robot and pick your up from [Dexter Industries](http://www.dexterindustries.com)
 * A lot of the code and functions included here are leveraged from Dexter Industries examples which are licensed under GPL.
 
-![Mobile control of the GoPiGo Raspberry Pi Robot](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Software/Python/Examples/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Control of the GoPiGo Raspberry Pi Robot with a mobile phone.")
+![Mobile control of the GoPiGo Raspberry Pi Robot](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Control of the GoPiGo Raspberry Pi Robot with a mobile phone.")
 
-![Robot Control and streaming through the browser](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Software/Python/Examples/Browser_Streaming_Robot/Raspberry_Pi_Camera_streaming-to-computer-browser.jpg "Streaming video through the browser of the GoPiGo")
+![Robot Control and streaming through the browser](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Browser_Streaming_Robot/Raspberry_Pi_Camera_streaming-to-computer-browser.jpg "Streaming video through the browser of the GoPiGo")
 
-![Controlling the GoPiGo robot with a mobile phone](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/Software/Python/Examples/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Streaming video from your Raspberry Pi Robot to your mobile phone.")
 
 ### Clone The Git Repository
 * To start we need to clone the python project repository which will give us access to the code we need. 
@@ -68,8 +67,8 @@
 * The page that hosts the streaming video and browser control application runs on the local IP address of the Pi on port 98
 * The video stream would load up and you can use the joystick on the screen to control the GoPiGo
 
-![ GoPiGo ](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/GoPiGo_Chassis-300.jpg)
+![ GoPiGo ](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/GoPiGo_Chassis-300.jpg)
 
-![ GoPiGo ](https://raw.githubusercontent.com/DexterInd/GoPiGo/master/GoPiGo_Front_Facing_Camera300.jpg)
+![ GoPiGo ](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/GoPiGo_Front_Facing_Camera300.jpg)
 
 Enjoy and keep hacking !!!
