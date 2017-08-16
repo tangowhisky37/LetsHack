@@ -7,9 +7,9 @@
 * You can read more about this robot and pick your up from [Dexter Industries](http://www.dexterindustries.com)
 * A lot of the code and functions included here are leveraged from Dexter Industries examples which are licensed under GPL.
 
-![Mobile control of the GoPiGo Raspberry Pi Robot](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Browser_Streaming_Robot/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Control of the GoPiGo Raspberry Pi Robot with a mobile phone.")
+![Mobile control of the GoPiGo Raspberry Pi Robot](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Raspberry_Pi_Camera_controlled-by-mobile-browser.jpg "Control of the GoPiGo Raspberry Pi Robot with a mobile phone.")
 
-![Robot Control and streaming through the browser](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Browser_Streaming_Robot/Raspberry_Pi_Camera_streaming-to-computer-browser.jpg "Streaming video through the browser of the GoPiGo")
+![Robot Control and streaming through the browser](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/Raspberry_Pi_Camera_streaming-to-computer-browser.jpg "Streaming video through the browser of the GoPiGo")
 
 
 ### Clone The Git Repository
