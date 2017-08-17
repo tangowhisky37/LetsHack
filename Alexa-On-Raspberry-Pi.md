@@ -3,7 +3,7 @@
 
 Amazon's Alexa-controlled Echo speaker is a wireless speaker. But it's capable of much more. Using nothing but the sound of your voice, you can search the Web, create to-do and shopping lists, shop online, get instant weather reports, and control popular smart-home products—all while your phone stays in your pocket. Thanks to Amazon opening up the Alexa Developer API's we now are able to access Alexa on the Raspberry Pi. This project was initially started by Sam Machin based in the UK but soon grabbed international attention when makers, hackers from all around the world realized that they could turn their Raspberry Pi's into Alexa devices as well. 
 
-~[Alexa](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/alexa.jpg)
+![Alexa](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/alexa.jpg)
 
 This document provides a tutorial on the installation of [AlexaPi](https://github.com/alexa-pi/AlexaPi) on the Raspberry Pi. This document was originally authored by the AlexaPi team and can also be read at [AlexaPi](https://github.com/alexa-pi/AlexaPi/wiki/Installation)
 
