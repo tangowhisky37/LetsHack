@@ -11,6 +11,8 @@ With mps-youtube you can stream audio content from youtube through a terminal wi
 
 mps-youtube is based on mps, a terminal based program to search, stream and download music. The mps-youtube implementation uses YouTube as a source of content and can play and download video as well as audio. The pafy library handles interfacing with YouTube. Here's a summary of the features provided by mps-youtube.
 
+![mps](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/mps.png)
+
 * Search and play audio/video from YouTube
 * Search tracks of albums by album title
 * Search and import YouTube playlists
