@@ -3,7 +3,7 @@
 
 RPi Cam is a project that is geared at configuring your RaspberryPi for purposes of streaming video. This basically means you can use your Raspberry Pi as a smart Web Streaming solution. This article assumes that you have your onboard camera installed and configured. Going into the integration and configuration of the on-board Raspberry Pi camera is out of the scope of this article. If you are looking to setup and configure your configure your camera then we would recommend that you look at youtube. You will find that there are many nice tutorials geared towards walking users through the integration of the on-board camera with the Raspberry Pi board. 
 
-~[Raspicam](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/raspicam.jpg)
+![Raspicam](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/raspicam.jpg)
 
 To read more about the RPi Web Cam project head here - [Rpi Web Cam Project](http://elinux.org/RPi-Cam-Web-Interface). Let's get going with installation and configuration of our Raspberry Pi Web Cam.
 
