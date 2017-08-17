@@ -5,7 +5,7 @@ The HowTo guides that I have put together have mostly been written up as notes t
 
 Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. Enjoy!!!
 
-This content is also accessible at - [https://github.com/tangowhisky37/RasPiSetupGuide](https://github.com/tangowhisky37/RasPiSetupGuide/)
+This content is also accessible at - [https://tangowhisky37.github.io/RasPiSetupGuide/](https://tangowhisky37.github.io/RasPiSetupGuide/)
 
 ### HowTos -
 * [Browser Controlled Robot with Streaming Video](/BrowserControlledRobot.md)
