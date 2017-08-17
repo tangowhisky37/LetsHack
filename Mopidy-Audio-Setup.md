@@ -3,6 +3,8 @@
 
 Mopidy is an extensible music server that plays music from local disk, Spotify, SoundCloud, Google Play Music, and more. There are many different user interfaces (web client, etc.) wich you can download and use to view, edit the playlist from any handheld device i.e. phone, tablet including a computer. Mopidy also allows the use of range of MPD (Older Music Player Daemon) client for which applications are available at the Apple and Andriod stores. Head off to https://www.mopidy.com to learn more about the Mopidy music server and what it has to offer.
 
+![Mopidy](https://raw.githubusercontent.com/tangowhisky37/RasPiSetupGuide/master/images/mopidy.png)
+
 There are many reasons i use Mopidy in comparison to the other music players available. The foremost being that it's Python based and has one of the most refreshing interfaces i could find. Secondly, Mopidy has a very vibrant community around it with some of the best support for plugins and interfaces that I could find. To top it all it would run on Raspbian on the Raspberry Pi which was important.
 
 ### Installing Mopidy on Raspbian
