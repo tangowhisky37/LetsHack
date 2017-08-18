@@ -7,11 +7,11 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Lets Hack
+title:            LetsHack
 tagline:          'Hacking adventures with the Raspberry Pi, Arduino, ESP...etc.'
 description:      'Hacking adventures with the Raspberry Pi, Arduino, ESP, etc.'
 url:              https://tangowhisky37.github.io
-baseurl:          /RasPiSetupGuide/
+baseurl:          /LetsHack/
 
 author:
   name:           'Trevor Warren'
