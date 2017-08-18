@@ -7,6 +7,60 @@ Amazon's Alexa-controlled Echo speaker is a wireless speaker. But it's capable o
 
 This document provides a tutorial on the installation of [AlexaPi](https://github.com/alexa-pi/AlexaPi) on the Raspberry Pi. This document was originally authored by the AlexaPi team and can also be read at [AlexaPi](https://github.com/alexa-pi/AlexaPi/wiki/Installation)
 
+### Dependencies & Hardware Required
+
+To get Alexa working on your Raspberry Pi you will need to have a USB mike connected and configured. You will also need speakers (preferrably) or headphones so that you are able to hear Alexa speak. Grab one of the USB mikes from ebay.com or amazon.com and plug them into the USB port of your Raspberry pi. The speakers will be connected to the audio out port on the Raspberry Pi. An alternative to using a USB mike is re-purposing an existing Web Camera with an on-board mike. Most of the mid range and high end webcams out there have a decent mike built into them.
+
+Once you have plugged in your web camera and mike run through the following setup tasks in the next section.
+
+### Setting Up Your Raspberry Pi To Record & Play Sound
+
+In this section we will configure your Raspberry Pi to record sound using the USB mike and play sound using the connected speakers.
+
+- Let's start by editing the asound.conf file which stores the sound configuration for your Raspberry Pi. 
+
+ > bash# vi /etc/asound.conf
+
+ ```
+  pcm.!default {
+  type plug
+  slave {
+  pcm "hw:1,0"
+   }
+  }
+
+  ctl.!default {
+  type hw
+  card 1
+  }
+ ```
+
+- With your asound.conf configured let's now reboot the Raspberry Pi.
+
+ > bash# reboot
+
+- Once your Raspberry Pi has rebooted let's login and test if we are able to record sound. 
+- Issue the following command to create a new wave file while you speak into your USB mike. 
+
+ > bash# arecord -D plughw:1,0 -f cd test.wav
+
+- Hit control+c to kill the recording session. All you need is 5-10 seconds of sound recorded.
+- To playback the recorded sound file issue the following command. 
+
+ > bash# aplay test.wav
+
+- Feel free to adjust the sound using the alsa mixer command.
+
+ > bash# alsamixer
+
+- To save your sounds settings using the following command. 
+
+ > bash# sudo alsactl store
+
+At this point it's also worth noting that you can use the "raspi-config" command to configure the Raspberry Pi to playback sound from various available output devices.
+
+With the Raspberry Pi configured to record sound and playback sound we can now proceed with installing Alexa on the Raspberry Pi.
+
 ### Register at Amazon
 
 First you need to obtain a set of credentials from Amazon to use the Alexa Voice service. Make a note of these credentials as you will be asked for them during the install process.
@@ -27,28 +81,27 @@ First you need to obtain a set of credentials from Amazon to use the Alexa Voice
 
 ### Install AlexaPi
 
-1. Boot your PC and login to a command prompt.
-2. Make sure you are in `/opt` by issuing
+- Boot your Raspberry Pi and login to a command prompt.
+- Let's Make sure you are in `/opt` by issuing
 
     ```
     bash# cd /opt
     ```
-3. Make sure you have git installed
+- Lets make sure you have git installed
     
     ```
     bash# sudo apt-get install git # For Debian OSs (Debian, Raspbian, OSMC, OpenElec...)
     bash# sudo pacman -Sy git # For Arch Linux
     ```
 
-4. Clone this repo
+- Now let's go ahead and clone the Alexa repo
     
     ```
     bash# sudo git clone https://github.com/alexa-pi/AlexaPi.git
     ```
     
-    NOTE: You can also clone the repository to any other directory (and lose the `sudo` here, if you have permission to write to that directory), but you won't be able to run AlexaPi on boot with our init scripts. It is therefore recommended for advanced users (who know what they're doing) only.     
-
-5. Run the setup script
+- You can also clone the repository to any other directory (and lose the `sudo` here, if you have permission to write to that directory), but you won't be able to run AlexaPi on boot with our init scripts. It is therefore recommended for advanced users (who know what they're doing) only.
+- Lets now run the setup script
 
     ```
     bash# sudo ./AlexaPi/src/scripts/setup.sh
@@ -61,10 +114,13 @@ First you need to obtain a set of credentials from Amazon to use the Alexa Voice
 Now that you have installed AlexaPi there's a couple of things you need to do.
 
 - Reboot your machine **or** start AlexaPi with 
+
     ```
     sudo systemctl start AlexaPi.service
     ```
+
 - Check the status of AlexaPi with 
+
     ```
     sudo systemctl status AlexaPi.service
     ```
