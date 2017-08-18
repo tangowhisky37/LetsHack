@@ -4,14 +4,14 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            RasPiSetupGuide
 tagline:          'Hacking adventures with the Raspberry Pi, Arduino, ESP...etc.'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://tangowhisky37.github.io/RasPiSetupGuide/
-baseurl:          /
+baseurl:          https://tangowhisky37.github.io/RasPiSetupGuide/
 
 author:
   name:           'Trevor Warren'
