@@ -1,5 +1,5 @@
 
-### What LetsHack About 
+### What's LetsHack About 
 
 LetsHack provides a collection of notes and howto's that have been put together since 2016. A lot of the learning that you will find here is based on the long hours spent hacking on my numerous Raspberry Pi's, Arduino's, ESP8266, ESp32's, etc. i've got lying around the house. This website is labour of love documenting my learning including lessons learned along the way. 
 
