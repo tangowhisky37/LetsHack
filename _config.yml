@@ -10,8 +10,8 @@ permalink:        pretty
 title:            LetsHack
 tagline:          'Hacking adventures with the Raspberry Pi, Arduino, ESP...etc.'
 description:      'Hacking adventures with the Raspberry Pi, Arduino, ESP, etc.'
-url:              https://tangowhisky37.github.io/LetsHack
-baseurl:          /
+url:              https://tangowhisky37.github.io
+baseurl:          /LetsHack
 
 author:
   name:           'Trevor Warren'
