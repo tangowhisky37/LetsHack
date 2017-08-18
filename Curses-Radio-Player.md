@@ -18,6 +18,9 @@ This short piece focuses on configuring your Raspberry Pi to launch radio statio
 
 * PyRadio is implemented in Python, and uses mplayer for media playback. PyRadio has been tested under Ubuntu 9.04, but should run without any problems under most UNIX based operating systems. 
 * I've been able to compile PyRadio on Rapbian on the Raspberry Pi 3, so you shouldn't have any issues getting it up and running on the Raspberry Pi. 
+
+### Installing PyRadio
+
 * To get it running you'll need Python and mplayer. Let's get started by installing mplayer.
   > `bash# sudo apt-get install mplayer`
 * Once you have mplayer installed you are good to download, compile and install PyRadio. So let's go ahead and download PyRadio.
@@ -25,6 +28,9 @@ This short piece focuses on configuring your Raspberry Pi to launch radio statio
 * With PyRadio downloaded, change into the directory and issue the following command to compile PyRadio.
   > `bash# sudo python setup.py install`
 * With the above complete you should now have completed compiling and installing PyRadio on your Raspberry Pi. 
+
+### Spinning Up PyRadio
+
 * You should now be able to launch the application from the console. 
   > `bash# pyradio`
 * Select your station from the list and hit enter. Look up the manual for information on other commands. Enter starts playing and Space stops playing. Ctrl+C exits from the player.
