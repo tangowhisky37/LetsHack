@@ -1,11 +1,13 @@
 
-### What Is This Guide About 
+### What LetsHack About 
 
-This website  that I have put together have mostly been written up as notes to myself. These notes to myself were intended to serve as a reminder for the various systems administration tasks I usually perform when i pick up a new Raspberry Pi and need to setup the device integrating it with my existing lab setup at home. Over a period of time site this has evolved to also include most of the common systems administration tasks one would need to perform when running Linux (Raspbian) operating system on the Raspberry Pi. A point also worth noting is that The collection of articles initially focused on the Raspberry Pi but over a period of time as I began hacking with the Arduino Uno, Ardino MEGA, ESP8266, ESP32, etc. I've ended up listing all of those relevant projects and HowTo's as well.
+LetsHack provides a collection of notes and howto's that have been put together since 2016. A lot of the learning that you will find here is based on the long hours spent hacking on my numerous Raspberry Pi's, Arduino's, ESP8266, ESp32's, etc. i've got lying around the house. This website is labour of love documenting my learning including lessons learned along the way. 
 
-Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. Enjoy!!!
+LetsHack initially started as a collection of notes and howto's that I put together mostly written up to serve as guides, notes to myself. These notes to myself were intended to serve as a reminder for the various systems administration, setup and programming tasks i would usually need to perform when i pick up a new Raspberry Pi, Arduino, ESP, etc. This site initially started with a primary focus on the Raspberry Pi but over a period of time as I began hacking with the Arduino Uno, Ardino MEGA, ESP8266, ESP32, etc. I've ended up listing all of those relevant notes, howto's documenting learning on each of these devices along the way. 
 
-This content is also accessible at - [https://tangowhisky37.github.io/RasPiSetupGuide/](https://tangowhisky37.github.io/RasPiSetupGuide/)
+Hopefully some of the information here will be useful to some of you out there who might stumble across simliar issues when hacking with your own Raspberry Pi, Arduino, ESP8266 or ESP32. 
+
+!!! Keep hacking !!!
 
 ### HowTos -
 * [Browser Controlled Robot with Streaming Video](/BrowserControlledRobot.md)
