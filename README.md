@@ -10,19 +10,19 @@ Hopefully some of the information here will be useful to some of you out there w
 !!! Keep hacking !!!
 
 ### HowTos -
-* [Browser Controlled Robot with Streaming Video](/BrowserControlledRobot.md)
-* [Custom Node Red Installation](/Node-Red-Setup.md) 
-* [Curses based Command Line Radio Player](/Curses-Radio-Player.md)
-* [Configuring your Arduino IDE for use with the ESP32 (NodeMCU - DevKit v1 - DOIT)](/ESP32ArduinoIDE.md)
-* [Git Tutorial](/Git-Tutorial.md)
-* [Git SSL Issues and how you might fix them](/GIT-SSL-Issues.md)
-* [Hacking the Disk Layout on a Raspberry Pi Model A](/Custom-Disk-Prep.md)
-* [Installing Alexa on the Raspberry Pi](/Alexa-On-Raspberry-Pi.md)
-* [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/Webcam-Setup.md)
-* [SSH and SCP connections hang on launch](/SSH-Hangs-On-Launch.md)
-* [SSH and SCP connection failures when connecting from remote machines](/SSH-Connection-Dropped.md)
-* [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/Mopidy-Audio-Setup.md)
-* [Youtube on the Command Line](/Youtube-On-CommandLine.md)
+* [Browser Controlled Robot with Streaming Video](/howto/BrowserControlledRobot.md)
+* [Custom Node Red Installation](/howto/Node-Red-Setup.md) 
+* [Curses based Command Line Radio Player](/howto/Curses-Radio-Player.md)
+* [Configuring your Arduino IDE for use with the ESP32 (NodeMCU - DevKit v1 - DOIT)](/howto/ESP32ArduinoIDE.md)
+* [Git Tutorial](/howto/Git-Tutorial.md)
+* [Git SSL Issues and how you might fix them](/howto/GIT-SSL-Issues.md)
+* [Hacking the Disk Layout on a Raspberry Pi Model A](/howto/Custom-Disk-Prep.md)
+* [Installing Alexa on the Raspberry Pi](/howto/Alexa-On-Raspberry-Pi.md)
+* [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/howto/Webcam-Setup.md)
+* [SSH and SCP connections hang on launch](/howto/SSH-Hangs-On-Launch.md)
+* [SSH and SCP connection failures when connecting from remote machines](/howto/SSH-Connection-Dropped.md)
+* [Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy](/howto/Mopidy-Audio-Setup.md)
+* [Youtube on the Command Line](/howto/Youtube-On-CommandLine.md)
 
 ### Just Code : Projects Completed + Projects Under Development -
 * [Blink LED's - Interacting with LED's through GPIO](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/BlinkLEDs)
