@@ -8,7 +8,7 @@ Node-RED provides a browser-based flow editor, which can be used to create JavaS
 
 In 2016, IBM contributed Node-RED as an open source JS Foundation project.
 
-## Installing Node Red On Your Raspberry Pi
+### Installing Node Red On Your Raspberry Pi
 
 - When setting up the Raspberry Pi always upgrade Node Red using the script provided, 
 
