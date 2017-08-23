@@ -29,7 +29,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Obtain MAC address on the NodeMCU ESP8266](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/ObtainMACAddress/)
 * [Obtain MAC address on the NodeMCU ESP32](https://github.com/tangowhisky37/ArduinoProjects/tree/master/ESP32/Find_MAC_Address)
 * [Blink LED's - Interacting with LED's through GPIO](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/BlinkLEDs)
-* [Detection motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
+* [Detect motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
 * [Interacting with Analog Sensors (PIR Module) using the ADC (MCP 3008) and the Raspberry Pi](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/ReadingAnalogSensors)
 * [IoT - Measure Soil Moisture using the ESP8266, Soil Moisture Sensor, Relay & send data to Twitter](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/ThingSpeakDataUpload)
 * [IoT - Obtain Temperature & Humidity using DHT11, DHT22 on the NodeMCU ESP8266](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/Measure_Temp_Humidity_ESP8266)
