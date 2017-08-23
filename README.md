@@ -1,5 +1,5 @@
 
-### What's LetsHack About 
+## What's LetsHack About 
 
 LetsHack provides a collection of notes and howto's that have been put together since 2016. A lot of the learning that you will find here is based on the long hours spent hacking on my numerous Raspberry Pi's, Arduino's, ESP8266, ESp32's, etc. i've got lying around the house. This website is labour of love documenting my learning including lessons learned along the way. 
 
@@ -29,11 +29,12 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Blink LED's - Interacting with LED's through GPIO](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/BlinkLEDs)
 * [Detection motion using a PIR Sensor and raising an alarm](https://github.com/tangowhisky37/RaspiPythonProjects/blob/master/PIR) 
 * [Interacting with Analog Sensors (PIR Module) using the ADC (MCP 3008) and the Raspberry Pi](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/ReadingAnalogSensors)
-* [IoT - Obtain Temperature & Humidity using the DHT11 & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity)
+* [IoT - Obtain Temperature & Humidity using DHT11, DHT22 on the NodeMCU ESP8266](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/Measure_Temp_Humidity_ESP8266)
+* [IoT - Obtain Temperature & Humidity using the DHT11, Raspberry Pi & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity)
 * [IoT - Obtain Temperature & Humidity data from the Arduino MEGA (DHT 11) & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity_Pull_Data_Arduino)
-* [IoT - Weather data acquisition using OWM and upload to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Weather_Reporting)
-* [IoT - Weather data acquisition and write to LCD](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_To_LCD_Screen)
-* [IoT - Weather data acquisition and write to Twitter](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_Weather_To_Twitter)
+* [IoT - Weather data acquisition on the Raspberry Pi using OWM and upload to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Weather_Reporting)
+* [IoT - Weather data acquisition and write to LCD on the Raspberry PI](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_To_LCD_Screen)
+* [IoT - Weather data acquisition and write to Twitter on the Raspberry PI](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Write_Weather_To_Twitter)
 * [Robotics - GoPiGo keyboard controlled robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_robot_keyboard_conrolled)
 * [Robotics - GoPiGo browser controlled robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_Robot_Browser_Controlled)
 * [Robotics - GoPiGo GUI (PyGame Framework) controlled robot](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Gopigo_robot_Pygame_GUI_conrolled)
