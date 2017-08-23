@@ -1,6 +1,6 @@
 
 
-### Hacking the Disk Layout on a Raspberry Pi Model A 
+## Hacking the Disk Layout on a Raspberry Pi Model A 
 
 This guide was put together while i was assembling 4 Raspberry Pi's for the local Raspberry Pi Hackers group i run. I've had some challenges building the Raspberry Pi A. I used the stock Raspbian distro on a 8 GB SDHC card. The default file system is around ~4GB in size with SWAP around ~128 MB in size. This made working on the Raspberry Pi nearly impossible. Every command would take ages to run and updates to the operating system would run for 20-30 mins as compared to 2-3 ins on a Raspberry Pi 2, or Raspberry Pi 3.  
 

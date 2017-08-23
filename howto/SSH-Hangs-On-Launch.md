@@ -1,5 +1,5 @@
 
-### SSH Hangs On Launch
+## SSH Hangs On Launch
 
 I've been having a strange issue with SSH for the last year or so. I've tried looking for answers a while ago but never made much progress and eventually I did give up. What was happening was that I could connect to the Raspberry Pi via SSH. I would then be prompted for a username and password as usual, but then once I typed in the password and hit enter nothing happened. So the SSH session seemed to be hanging after we had completed authentication. It just sat there and wouldn’t respond to any input at all. One had to eventually close the session window. A real strange issue indeed and something that has stumped me for months. 
 

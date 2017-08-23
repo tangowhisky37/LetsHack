@@ -1,5 +1,5 @@
 
-### Raspberry Pi Drops SSH Connections From Remote Hosts
+## Raspberry Pi Drops SSH Connections From Remote Hosts
 
 * This is an issue i noticed recently on a Raspbery Pi 2 which was recently upgraded. 
 * As part of the upgrade I meant to pull out the older SD card (8 GB) and install a new larger SD Card (32 GB) with the latest version of the Raspbian Operating System on it. 

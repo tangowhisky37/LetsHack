@@ -1,7 +1,11 @@
 
-### Git SSL Certificate Issues
+### Fixing Git SSL Certificate Issues
 
 Git use SSL extensively to ensure that communication between the Git client and the Git server is encrypted preventing MITM or Man In The Middle Attacks. However this can also cause issues when you've setup your own Git server and generate a self signed certificate. We've also seen these issues arise when using Git on Windows. 
+
+In this short howto we will look at fixing the GIT SSL issues that's regularly encountered while using windows.
+
+## What Do The Errors Look Like
 
 - You should not have these issues if developing code on Linux or Raspbian on the Raspberry Pi.
 - The SSL issues can also crop up when trying to commit code into the master repo at Github from your local windows repository. 
@@ -30,9 +34,9 @@ Git use SSL extensively to ensure that communication between the Git client and 
  fatal: unable to access 'https://username@git.example.com/scm/repository.git': SSL certificate problem: self signed certificate in certificate chain
 ```
 
-There are a few different approaches to sort this out. The first is - 
+There are a few different approaches to sort this out. Let's look at both of them below.
 
-### Turn off Git SSL Verification
+### Option 1 : Turn off Git SSL Verification
 
 - You can stop the Git client from verifying your servers certificate and to trust all SSL certificates you use with the Git client. 
 - This has it’s own security risks as you would not be warned if there was a valid problem with the server you are trying to connect to. 
@@ -40,7 +44,7 @@ There are a few different approaches to sort this out. The first is -
 - Simply run the below git command on your Git client.
   > `bash# git config --global http.sslVerify false`
 
-### Tell Git Where Your Certificate Authority Certificates Are Located
+### Option 2 : Tell Git Where Your Certificate Authority Certificates Are Located
 
 - Another option is to point your Git client towards a folder that contains the Certificate Authority certificate that was used to sign your Git server’s SSL certificate. 
 - You may not have one of these if you’re using Self Signed certificates.

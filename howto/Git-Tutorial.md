@@ -1,5 +1,5 @@
 
-### Git Basics
+## Git Basics
 
 Here's a tutorial on the very basics of git. These are provided in a logical sequence and do not intend to cover all the options git provides. 
 

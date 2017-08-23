@@ -1,5 +1,5 @@
 
-### Curses (Command Line) Based Python Radio Player
+## Curses (Command Line) Based Python Radio Player
 
 This short piece focuses on configuring your Raspberry Pi to launch radio stations using a curses based Python command line application. Curses allows for a menu based approach at the command line, think of it as the minimalist GUI at the console. 
 

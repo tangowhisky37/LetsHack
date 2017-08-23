@@ -1,5 +1,5 @@
 
-### Youtube On The Command Line (CLI)
+## Youtube On The Command Line (CLI)
 
 This tutorial will cover installation and configuration of mps-youtube for purposes of playing youtube videos at the command line. No why would anyone want to play youtube videos at the command line...:). Am sure I could give you quite a few reasons but the most relevant one is, because I can. Ok, so I'll stop behaving like a smarty pants and will tell you why. 
 
