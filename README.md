@@ -18,7 +18,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Git SSL Issues and how you might fix them](/howto/GIT-SSL-Issues.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/howto/Custom-Disk-Prep.md)
 * [Installing Alexa on the Raspberry Pi](/howto/Alexa-On-Raspberry-Pi.md)
-* [IoT - Building a Temperature, Humidity monitoring setup using the NodeMCU ESP8266 and the DHT11, DHT22 sensors](h/owto/DHT11-ESP8266.md)
+* [IoT - Building a Temperature, Humidity monitoring setup using the NodeMCU ESP8266 and the DHT11, DHT22 sensors](/howto/DHT11-ESP8266.md)
 * [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/howto/Webcam-Setup.md)
 * [SSH and SCP connections hang on launch](/howto/SSH-Hangs-On-Launch.md)
 * [SSH and SCP connection failures when connecting from remote machines](/howto/SSH-Connection-Dropped.md)
