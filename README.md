@@ -77,6 +77,7 @@ Hopefully some of the information here will be useful to some of you out there w
 
 ### Important Links - 
 * [Raspberry Pi Foundation](http://www.raspberrypi.org)
+* [BBC Microbit](https://www.microbit.co.uk)
 * [Arduino.cc](http://www.arduino.cc)
 * [Arduino.org](http://www.arduino.org)
 * [Cicrcuito - Drag and drop interface to design circuits and auto-generate code](http://wwww.circuito.io)
@@ -123,12 +124,22 @@ Hopefully some of the information here will be useful to some of you out there w
   * [Jaycar Arduino Projects](https://www.jaycar.com.au/arduino)
 
 ### Maker Projects For Kids
-* [Making Science With Google](https://makingscience.withgoogle.com/?lang=en)
+* [Getting started with Scratch on the Raspberry Pi](https://www.raspberrypi.org/documentation/usage/scratch/)
+* [Scratch for Arduino](http://s4a.cat/)
+* [Experimental Extensions for Scratch - Arduino, BBC Microbit, etc.](http://scratchx.org/)
+* [Scratch GPIO](http://simplesi.net/scratchgpio/)
 * [Code Club](https://codeclubprojects.org/en-GB/)
 * [RaspberryPi Digital Maker Curriculum for kids](https://curriculum.raspberrypi.org/)
 * [Raspberry Pi Learning Resources for kids](https://www.raspberrypi.org/resources/)
 * [Hello World Magazine](https://helloworld.raspberrypi.org/helloworld)
 * [CoderDojo](https://coderdojo.com/)
+* [Edublocks](http://edublocks.org/)
+* [SonicPi](http://sonic-pi.net/)
+* [Computing At School - UK](http://www.computingatschool.org.uk/)
+* [BBC Microbit](https://www.microbit.co.uk)
+* [CamJam Edu Kit](http://camjam.me/?page_id=236) 
+* [Raspberry Pi Education Manual](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf)
+* [Making Science With Google](https://makingscience.withgoogle.com/?lang=en)
 
 ### Purchasing Electronics, Arduino's, Rapberry Pi's Online - 
 * [Adafruit](http://adafruit.com)
@@ -150,4 +161,5 @@ Hopefully you have found some value in the guides that have been published at th
 `tangowhisky37` is the pseudonym that Trevor (Warren) has used for a while now. Its inspired by his love for the physics of aviation. Trevor (Warren) is passionate about challenging the status-quo and finding reasons to innovate. Over the past 15 years he has been delivering complex systems, has worked with very large clients across the world and constantly is looking for opportunities to bring about change. 
 
 His love for working with people and harnessing the power of the collective human intellect he believes helps him deliver the expected outcomes. Trevor constantly strives to combine his passion for delivering outcomes with his ability to build long lasting professional relationships. You can learn more about the work he does at [LinkedIn](https://au.linkedin.com/in/trevorwarren). You can download a copy of his CV at [VisualCV](https://www.visualcv.com/tangowhisky37). Visit the [Github](https://github.com/tangowhisky37) for details of the projects he's been hacking with.
+
 
