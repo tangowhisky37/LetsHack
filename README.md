@@ -51,29 +51,42 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Sensing light using the Photo Resistor Light Sensor Module](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/LightSensor)
 
 ### In The Works - 
-* Evolution of the Raspberry Pi
-* Overview of the Raspberry Pi 3
-* Burning the SD Card & Booting up your Raspberry Pi
-* Configuring your Raspberry Pi to connect to a Wireless Network
-* Performing basic configuration on your Raspberry Pi using "raspi-config"
-* Setting up your Raspberry Pi for remote (Command Line) access using SSH
-* Setting up your Raspberry Pi for remote (GUI) access using VNC
-* Setting up your RaspberryPi 3 to able to VNC (remote connection) to the main display
-* Linux survival basics - Introduction to the BASH shell and key commands
-* Mounting an external Windows recoginzed USB Device (& File System) on the RaspberryPi 3
-* ~~Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam~~
-* Setting up a USB Web Camera on Raspberry Pi 3 
-* Configuring the Raspberry Pi to play audio, video
-* Interacting with the real world using GPIO. Build simple circuits. 
-* Changing the default sound output on the Raspberry Pi 3
-* Installing and testing a USB mike on the Raspberry Pi 3
-* ~~Installing Alexa on the Raspberry Pi~~
-* ~~OpenCV - Face detection using AWS S3, AWS Rekognition, AWS Lambda. Read out current weather on positive match.~~
-* ~~Turn your Raspberry Pi into a smart audio streaming solution using Mopidy~~
-* ~~Hacking the disk layout on a Raspberry Pi Model A~~
-* ~~Custom Node Red Installation~~
-* ~~Git Introductory Tutorial~~
-* ~~Youtube on the Command Line~~
+
+* Documentation / HowTo's
+  * Evolution of the Raspberry Pi
+  * Overview of the Raspberry Pi 3
+  * Burning the SD Card & Booting up your Raspberry Pi
+  * Configuring your Raspberry Pi to connect to a Wireless Network
+  * Performing basic configuration on your Raspberry Pi using "raspi-config"
+  * Setting up your Raspberry Pi for remote (Command Line) access using SSH
+  * Setting up your Raspberry Pi for remote (GUI) access using VNC
+  * Setting up your RaspberryPi 3 to able to VNC (remote connection) to the main display
+  * Linux survival basics - Introduction to the BASH shell and key commands
+  * Mounting an external Windows recoginzed USB Device (& File System) on the RaspberryPi 3
+  * Setting up a USB Web Camera on Raspberry Pi 3 
+  * Configuring the Raspberry Pi to play audio, video
+  * Interacting with the real world using GPIO. Build simple circuits. 
+  * Changing the default sound output on the Raspberry Pi 3
+  * Installing and testing a USB mike on the Raspberry Pi 3
+  * ~~Browser controlled robot with streaming video.~~
+  * ~~Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam~~
+  * ~~Installing Alexa on the Raspberry Pi~~
+  * ~~OpenCV - Face detection using AWS S3, AWS Rekognition, AWS Lambda. Read out current weather on positive match.~~
+  * ~~Turn your Raspberry Pi into a smart audio streaming solution using Mopidy~~
+  * ~~Hacking the disk layout on a Raspberry Pi Model A~~
+  * ~~Custom Node Red Installation~~
+  * ~~Curses based command line radio player.~~
+  * ~~Git Introductory Tutorial~~
+  * ~~Dealing with Git SSL issues on windows.~~
+  * ~~Youtube on the Command Line~~
+  * ~~IoT - Building a Temperature, Humidity monitoring setup using the NodeMCU ESP8266, DHT11/ DHT22 sensors.~~
+  * ~~SSH and SCP connections hang when connecting from remote machines~~
+  * ~~Turn your Raspberry Pi 3 into a smart audio streaming solution using Mopidy~~
+* Projects 
+  * My connected Smart Home
+  * Graph data collected via sensors, plot in real time
+  * Connect up RF 433mHz to NodeMCU ESP8266 to open/close Garage Door
+
 
 ### Important Links - 
 * [Raspberry Pi Foundation](http://www.raspberrypi.org)
