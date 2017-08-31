@@ -146,6 +146,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Raspberry Pi Learning Resources for kids](https://www.raspberrypi.org/resources/)
 * [Hello World Magazine](https://helloworld.raspberrypi.org/helloworld)
 * [CoderDojo](https://coderdojo.com/)
+* [CoderDojo Resources for volunteers](http://kata.coderdojo.com/wiki/Home_Page)
 * [Edublocks](http://edublocks.org/)
 * [SonicPi](http://sonic-pi.net/)
 * [Computing At School - UK](http://www.computingatschool.org.uk/)
