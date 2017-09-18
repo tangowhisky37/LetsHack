@@ -104,6 +104,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Adafruit Electronics Tutorials](https://learn.adafruit.com/)
 * [Sparkfun Electronics Tutorials](https://learn.sparkfun.com/)
 * [Circuitbasics](http://www.circuitbasics.com/)
+* [DIYProjects.IO](https://www.diyprojects.io/)
 * [Hackster.io](http://www.hackster.io)
 * [Hackaday](https://hackaday.io)
 * [Instructables](http://www.instructables.com)
