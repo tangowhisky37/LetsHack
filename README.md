@@ -14,6 +14,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Custom Node Red Installation](/howto/Node-Red-Setup.md) 
 * [Curses based Command Line Radio Player](/howto/Curses-Radio-Player.md)
 * [Configuring your Arduino IDE for use with the ESP32 (NodeMCU - DevKit v1 - DOIT)](/howto/ESP32ArduinoIDE.md)
+* [Configuring your Arduino IDE for use with the ESP8266 (NodeMCU - DOIT)](/howto/ESP8266ArduinoIDE.md)
 * [Git Tutorial](/howto/Git-Tutorial.md)
 * [Git SSL Issues and how you might fix them](/howto/GIT-SSL-Issues.md)
 * [Hacking the Disk Layout on a Raspberry Pi Model A](/howto/Custom-Disk-Prep.md)
