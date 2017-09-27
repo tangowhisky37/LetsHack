@@ -34,6 +34,8 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Interacting with Analog Sensors (PIR Module) using the ADC (MCP 3008) and the Raspberry Pi](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/ReadingAnalogSensors)
 * [IoT - Measure Soil Moisture using the ESP8266, Soil Moisture Sensor, Relay & send data to Twitter](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/ThingSpeakDataUpload)
 * [IoT - Obtain Temperature & Humidity using DHT11, DHT22 on the NodeMCU ESP8266](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/Measure_Temp_Humidity_ESP8266)
+* [IoT - ESP8266 Web Server + Remote Relay Control + Display Temp & Humidity data obtained from DHT11 : RoboIndia board](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/Web_Server)
+* [IoT - Obtain Temperature & Humidity data from ESP8266 on RoboIndia Blynk Board](https://github.com/tangowhisky37/ArduinoProjects/tree/master/Nodemcu_Geekcreit/Blynk/Humidity_Temp_Measurement)
 * [IoT - Obtain Temperature & Humidity using the DHT11, Raspberry Pi & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity)
 * [IoT - Obtain Temperature & Humidity data from the Arduino MEGA (DHT 11) & uploading data to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Sense_Temp_Humidity_Pull_Data_Arduino)
 * [IoT - Weather data acquisition on the Raspberry Pi using OWM and upload to ThingSpeak](https://github.com/tangowhisky37/RaspiPythonProjects/tree/master/Weather_Reporting)
