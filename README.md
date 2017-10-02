@@ -136,9 +136,12 @@ Hopefully some of the information here will be useful to some of you out there w
   * [PCBReflux's Tutorials @ Youtube](https://www.youtube.com/playlist?list=PLxJ8_KSR8bp5-F4HVG4QOm4Kt6wQhzsjU)
   * [Andreas Spiess's Tutorials @ Youtube](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)
 * [Arduino.cc](http://www.arduino.cc)
+  * [Arduino Basics - Blog](http://arduinobasics.blogspot.com.au/)
   * [Arduino Blog - http://arduino-er.blogspot.com.au](http://arduino-er.blogspot.com.au)
   * [A Beginners Guide to the Arduino](http://wwww.instructables/com/id/A-Begginers-Guide-to-Arduino/) 
   * [Jaycar Arduino Projects](https://www.jaycar.com.au/arduino)
+* [Robotics - Custom Raspberry Pi Robots](https://custom-build-robots.com/?lang=en)
+
 
 ### Maker Projects For Kids
 * [Getting started with Scratch on the Raspberry Pi](https://www.raspberrypi.org/documentation/usage/scratch/)
