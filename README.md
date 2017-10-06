@@ -102,6 +102,8 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Win32DiskImager - Write Raspberry Pi Images to the SD Card](http://sourceforge.net/projects/win32diskimager/)
 * [Fritzing - Software to design circuits](http://fritzing.org)
 * [PiNet - Centralised user accounts & file storage system for a Raspberry Pi Classroom](http://pinet.org.uk)
+* [Pi-Finder](https://github.com/adafruit/Adafruit-Pi-Finder)
+
 
 ### Documentation & Tutorials - 
 * [Adafruit Electronics Tutorials](https://learn.adafruit.com/)
