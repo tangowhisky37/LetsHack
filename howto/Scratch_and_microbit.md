@@ -3,7 +3,7 @@
 
 This tutorial covers installation and configuration of all the software required to be able to interact with Scratch (https://scratch.mit.edu) and the micro:bit (https://microbit.org). We will go over all the essential pieces of software, configure them and then test things out by launching scratch on our desktop.
 
-This tutorial only covers integration of Scratch with micro:bit on Microsoft Windows machines. If you macos please see ScratchX (https://scratchx.org).
+This tutorial only covers integration of Scratch with micro:bit on Microsoft Windows machines. If you are using an Apple machine with macos please see ScratchX (https://scratchx.org).
 
 There are a few ways to interact with Scratch. Let's quickly go over them below - 
 
