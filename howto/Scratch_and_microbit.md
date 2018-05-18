@@ -1,7 +1,7 @@
 
 ## Integrating micro:bit with Scratch (Microsoft Windows Only)
 
-This tutorial covers installation and configuration of all the software required to be able to interact with Scratch (https://scratch.mit.edu) with the micro:bit (https://microbit.org). We will go over all the essential pieces of software, configure them and then test things out by launching scratch on our desktop.
+This tutorial covers installation and configuration of all the software required to be able to interact with Scratch (https://scratch.mit.edu) and the micro:bit (https://microbit.org). We will go over all the essential pieces of software, configure them and then test things out by launching scratch on our desktop.
 
 This tutorial only covers integration of Scratch with micro:bit on Microsoft Windows machines. If you macos please see ScratchX (https://scratchx.org).
 
@@ -68,15 +68,15 @@ Once you have installed the mu editor you will need to download the python progr
 
 #### Step 3b - Download and Install the hex File Directly Onto Your Computer
 
-If you want to avoid downloading of the mu editor and creating the hex file you can directly download the hex file we have created using the code provided here - [Download Hex file](https://mryslab.github.io/s2m/install/#installing-the-s2m-microbit-script-on-the-microbit). Once you have downloaded the hex file drag the hex file directly onto your micro:bit using windows explorer and it will copy the code onto the micro:bit. 
+If you want to avoid downloading of the mu editor and creating the hex file you can directly download the hex file we have created using the code provided here - [Download Hex file](https://github.com/tangowhisky37/LetsHack/blob/master/downloads/microbit/s2m.hex). Once you have downloaded the hex file drag the hex file directly onto your micro:bit using windows explorer and it will copy the code onto the micro:bit. 
 
 #### Step 4 - Install the S2M software 
 
 We've now completed installation of Scratch, followed by installation of Python 2.7.xx (32bit or 64 bit version) followed by installation of mu editor to flash the micro:bit with the code provided. You can now proceed with installation of the s2m software on your machine.
 
-So let's open up a windows command console and key in the following commands. You can access the windows command by going into windows/run and then typing "cmd".
+So let's open up a windows command console and key in the following commands. You can access the windows command prompt by going into windows/run and then typing "cmd".
 
-> `pip install s2m`
+> `c:> pip install s2m`
 
 You should now see a whole lot of activity on your machine. This is python downloading the required s2m packages including dependencies from the internet and installing it on your machine. 
 
@@ -84,7 +84,7 @@ You should now see a whole lot of activity on your machine. This is python downl
 
 With the installation of s2m now complete you will need to open up a command window and then launch s2m. You can access the windows command prompt by going to windows/run and then typing "cmd". Once you have the command prompt open type the following to launch s2m and scratch.
 
-> `s2m`
+> `c:> s2m`
 
 S2m now launches, detects the communication (com) ports that your micro:bit is connected to and allows Scratch to integrate with micro:bit using the additional blocks provided.
 
