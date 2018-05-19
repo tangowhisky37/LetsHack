@@ -60,6 +60,8 @@ Please note that if you are using a 32 bit machine you will need to download a 3
 
 So go ahead, download the relevant version of Python (32 or 64 bit) to your machine and have it installed. If you are not sure which version to use please head over to windows/control panel/system and look at the system information to understand if you are running a 32 or 64 bit machine. 
 
+**Note - While installing Python please ensure that you choose the "Add Python Executable to Path" option. This will ensure that you are able to access Python from the windows command prompt. If you forget to do this you will either need to manually add the Python binary directory to the system path variable or just un-install + re-install selecting the "Add Python Executable to Path" on the next attempt. If you miss this step you will not be able to run s2m from the windows command prompt.**
+
 #### Step 3a - Download and Install the mu Editor on Your Computer
 
 The next step requires you to head over to the mu editor website, download mu and have it installed on your computer. The mu editor is required to create the hex program file with the python code in it and copy that code over to the micro:bit. You can access the mu editor website here - [https://codewith.mu/](https://codewith.mu/). 
