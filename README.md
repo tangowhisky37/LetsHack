@@ -22,6 +22,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Installing Alexa on the Raspberry Pi](/howto/Alexa-On-Raspberry-Pi.md)
 * [IoT - Building a Temperature, Humidity monitoring setup using the NodeMCU ESP8266 and the DHT11, DHT22 sensors](/howto/DHT11-ESP8266.md)
 * [Integrating Scratch with micro:bit for MS windows](/howto/Scratch_and_microbit.md)
+* [Configuring Raspbian on the Raspberry Pi 3](/howto/Raspberry-Pi-Common-Setup.md)
 * [Setting up your Raspberry Pi to monitor your home remotely using Rpi Cam](/howto/Webcam-Setup.md)
 * [SSH and SCP connections hang on launch](/howto/SSH-Hangs-On-Launch.md)
 * [SSH and SCP connection failures when connecting from remote machines](/howto/SSH-Connection-Dropped.md)
