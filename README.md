@@ -119,6 +119,7 @@ Hopefully some of the information here will be useful to some of you out there w
 * [Instructables](http://www.instructables.com)
 * [Initialstate](https://www.initialstate.com/learn/)
 * [All About Circuits](https://www.allaboutcircuits.com)
+* [Maker.Pro](https://maker.pro/)
 * [Cactus.io](http://cactus.io/tutorials/arduino/)
 * [DIY Hacking](https://diyhacking.com/)
 * [Random Nerd Tutorials](https://randomnerdtutorials.com/)
